@@ -1,0 +1,21 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Bem-vindo à IA SEM LIMITES",
+  "tipo": "Boas-vindas",
+  "publicar_em": "2026-11-01T19:00",
+  "capa": "slide-1.png",
+  "resumo": "Inteligência Artificial explicada de forma simples, em português de Portugal: ferramentas, tutoriais curtos, prompts prontos a copiar e notícias verificadas.",
+  "pontos": [
+    "Ferramentas novas e gratuitas",
+    "Tutoriais em menos de 1 minuto",
+    "Prompts prontos a copiar",
+    "Notícias de IA verificadas, sempre a dizer se é grátis ou pago"
+  ],
+  "ferramentas": [
+    {"nome": "ChatGPT", "url": "https://chatgpt.com"},
+    {"nome": "Claude", "url": "https://claude.ai"},
+    {"nome": "Gemini", "url": "https://gemini.google.com"},
+    {"nome": "Microsoft Copilot", "url": "https://copilot.microsoft.com"}
+  ],
+  "instagram_url": "https://www.instagram.com/p/DfNcTxyla_r/"
+}
