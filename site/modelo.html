@@ -122,12 +122,20 @@ document.querySelectorAll('.copiar').forEach(b => b.addEventListener('click', as
 }));
 document.querySelectorAll('.filtro').forEach(f => f.addEventListener('click', () => {
   document.querySelectorAll('.filtro').forEach(x => x.classList.toggle('ativo', x === f));
-  document.querySelectorAll('.cartao').forEach(c => { c.hidden = f.dataset.f !== '*' && c.dataset.tipo !== f.dataset.f; });
+  document.querySelectorAll('.cartao').forEach(c => { if (futuro(c)) return; c.hidden = f.dataset.f !== '*' && c.dataset.tipo !== f.dataset.f; });
 }));
+const futuro = el => el.dataset.espera !== undefined;
+function revelar() {
+  document.querySelectorAll('[data-espera]').forEach(el => {
+    if (new Date(el.dataset.publicar) <= new Date()) { delete el.dataset.espera; el.hidden = false; }
+  });
+  if (document.querySelector('#reels .cartao:not([data-espera])')) document.querySelectorAll('#reels .vazio').forEach(v => v.remove());
+}
+revelar(); setInterval(revelar, 60000);
 const caixa = document.querySelector('.pesquisa');
 if (caixa) caixa.addEventListener('input', () => {
   const q = caixa.value.trim().toLowerCase();
-  document.querySelectorAll('[data-busca]').forEach(el => { el.hidden = q && !el.innerText.toLowerCase().includes(q); });
+  document.querySelectorAll('[data-busca]').forEach(el => { if (futuro(el)) return; el.hidden = q && !el.innerText.toLowerCase().includes(q); });
   document.querySelectorAll('.setor').forEach(sec => { sec.hidden = !sec.querySelector('[data-busca]:not([hidden])'); });
 });
 document.querySelectorAll('.filtro[data-ir]').forEach(f => f.addEventListener('click', () => {
