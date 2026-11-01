@@ -20,7 +20,7 @@ LISBOA = ZoneInfo("Europe/Lisbon")
 INSTAGRAM = "https://www.instagram.com/iasemlimites.pt/"
 MENSAGEM = "https://ig.me/m/iasemlimites.pt"
 LANCAMENTO = "2026-11-01"
-SITE_URL = "https://davidasoliveira.github.io/iasemlimites-media/"
+SITE_URL = "https://iasemlimites.github.io/"
 
 SERIES = [
     ("⚡", "Truque de 30 s", "Um truque rápido em apps que já usas: Gmail, WhatsApp, Excel, Canva."),

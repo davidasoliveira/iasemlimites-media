@@ -1,29 +1,16 @@
-name: Site (link na bio)
+name: Verificar site
 
-# Gera e publica o site sempre que há algo novo no main e de 30 em 30 minutos,
-# para que cada Reel apareça no site logo depois da hora de publicação.
+# O site é publicado em https://iasemlimites.github.io/ pelo repositório
+# iasemlimites/iasemlimites.github.io, que lê este repositório de 30 em 30 minutos.
+# Aqui só se confirma que o site continua a gerar sem erros a cada alteração.
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: "5,35 * * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
+  pull_request:
 
 jobs:
-  publicar:
+  verificar:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -31,9 +18,3 @@ jobs:
           python-version: "3.12"
       - run: pip install pillow
       - run: python3 site/gerar.py --saida _site
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-      - id: deploy
-        uses: actions/deploy-pages@v4
