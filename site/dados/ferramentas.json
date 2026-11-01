@@ -1,0 +1,62 @@
+{
+ "_nota": "Só ferramentas confirmadas. 'preco' deve ser revisto mensalmente.",
+ "verificado_em": "2026-11-01",
+ "ferramentas": [
+  {
+   "nome": "ChatGPT",
+   "empresa": "OpenAI",
+   "para_que": "Assistente geral: escrever, resumir, analisar ficheiros, criar imagens.",
+   "url": "https://chatgpt.com",
+   "preco": "Plano gratuito"
+  },
+  {
+   "nome": "Claude",
+   "empresa": "Anthropic",
+   "para_que": "Escrita longa, análise de documentos, skills e conectores às tuas apps.",
+   "url": "https://claude.ai",
+   "preco": "Plano gratuito"
+  },
+  {
+   "nome": "Gemini",
+   "empresa": "Google",
+   "para_que": "Assistente da Google, liga-se ao Gmail e ao Drive e cria ficheiros no chat.",
+   "url": "https://gemini.google.com",
+   "preco": "Plano gratuito"
+  },
+  {
+   "nome": "Microsoft Copilot",
+   "empresa": "Microsoft",
+   "para_que": "Assistente da Microsoft, também dentro do Word, Excel e Outlook (com subscrição).",
+   "url": "https://copilot.microsoft.com",
+   "preco": "Plano gratuito"
+  },
+  {
+   "nome": "NotebookLM",
+   "empresa": "Google",
+   "para_que": "Junta os teus documentos e faz perguntas, resumos e resumos em áudio.",
+   "url": "https://notebooklm.google.com",
+   "preco": "Plano gratuito"
+  },
+  {
+   "nome": "Perplexity",
+   "empresa": "Perplexity",
+   "para_que": "Pesquisa na internet com respostas e fontes citadas.",
+   "url": "https://www.perplexity.ai",
+   "preco": "Plano gratuito"
+  },
+  {
+   "nome": "Canva",
+   "empresa": "Canva",
+   "para_que": "Design de publicações, apresentações e vídeos, com funções de IA.",
+   "url": "https://www.canva.com",
+   "preco": "Plano gratuito"
+  },
+  {
+   "nome": "DeepL",
+   "empresa": "DeepL",
+   "para_que": "Tradução de textos e documentos com boa qualidade em português.",
+   "url": "https://www.deepl.com",
+   "preco": "Plano gratuito"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Tranca as tuas conversas no ChatGPT",
+  "tipo": "Tutorial",
+  "publicar_em": "2026-11-05T12:30",
+  "capa": "capa-tutorial-01.jpg",
+  "resumo": "Com PIN, em 3 passos. Funciona na versão gratuita.",
+  "pontos": [
+    "Abre a conversa e toca nos três pontos •••",
+    "Escolhe \"Bloquear conversa\" e confirma",
+    "Cria um PIN de 4 dígitos (só na primeira vez)",
+    "Atenção: se reiniciares o PIN, as conversas bloqueadas são apagadas"
+  ],
+  "ferramentas": [
+    {
+      "nome": "ChatGPT (OpenAI)",
+      "url": "https://chatgpt.com"
+    }
+  ],
+  "fonte": {
+    "nome": "Ajuda oficial da OpenAI",
+    "url": "https://help.openai.com/en/articles/20001411-using-locked-chats-in-chatgpt"
+  },
+  "instagram_url": ""
+}

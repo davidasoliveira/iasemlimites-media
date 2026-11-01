@@ -1,0 +1,325 @@
+{
+ "_nota": "Prompts originais da IA SEM LIMITES. Acrescentar com a data em 'adicionado' (aparecem como Novo durante 14 dias).",
+ "setores": [
+  {
+   "id": "marketing",
+   "nome": "Marketing",
+   "icone": "📣",
+   "prompts": [
+    {
+     "titulo": "Público-alvo em 5 minutos",
+     "texto": "Age como especialista em marketing. O meu negócio é [descreve o negócio] em [cidade/região]. Define 3 perfis de cliente ideal com idade, profissão, problemas, objeções e onde passam tempo online. No fim, diz qual devo atacar primeiro e porquê.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Plano de conteúdos de 30 dias",
+     "texto": "Cria um calendário de 30 dias para o Instagram de [negócio]. Mistura dicas, bastidores, prova social e promoções (no máximo 1 em cada 5). Numa tabela: dia, formato (Reel, carrossel, Story), tema, gancho da 1.ª frase e chamada à ação.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Proposta de valor clara",
+     "texto": "Escreve 5 versões da proposta de valor de [produto/serviço] numa só frase, para [público]. Cada uma deve dizer o resultado que o cliente ganha, não as características. Assinala a mais forte e explica porquê.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Análise da concorrência",
+     "texto": "Vou colar textos dos sites de 3 concorrentes. Compara-os numa tabela: preço (se aparecer), promessa principal, público, tom e pontos fracos. Termina com 3 formas de me diferenciar.\n\n[cola os textos]",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Campanha para uma data",
+     "texto": "Cria uma campanha para [Black Friday / Natal / Dia da Mãe] para [negócio]. Dá-me: ideia central, 3 publicações, 1 email, 1 mensagem de WhatsApp para clientes e um calendário de envio. Tom: [próximo/profissional].",
+     "adicionado": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "vendas",
+   "nome": "Vendas",
+   "icone": "🤝",
+   "prompts": [
+    {
+     "titulo": "Email de prospeção que é lido",
+     "texto": "Escreve um email curto (máx. 120 palavras) para [cargo] da empresa [tipo de empresa]. Vendo [produto/serviço]. Começa por um problema concreto deles, não por mim. Termina com uma pergunta simples de sim ou não. Dá-me 3 assuntos possíveis.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Responder a objeções",
+     "texto": "Os meus clientes costumam dizer: \"[objeção, ex.: está caro]\". Dá-me 5 respostas diferentes, honestas e sem pressão, e explica em que situação usar cada uma.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Guião de chamada",
+     "texto": "Prepara um guião de chamada de 10 minutos para vender [produto] a [cliente]. Inclui abertura, 5 perguntas para perceber a necessidade, apresentação em 3 pontos e fecho com próximo passo marcado.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Seguimento depois do orçamento",
+     "texto": "Enviei um orçamento a [cliente] há [n] dias e não respondeu. Escreve 3 mensagens de seguimento (dia 3, dia 7 e dia 14), cada uma com um motivo novo para responder. Curtas e simpáticas.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Proposta comercial",
+     "texto": "Com base nestas notas da reunião, escreve uma proposta comercial com: resumo do problema, solução, o que está incluído, prazos, investimento e próximos passos. Linguagem clara, sem jargão.\n\n[cola as notas]",
+     "adicionado": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "conteudo-digital",
+   "nome": "Conteúdo digital",
+   "icone": "🎬",
+   "prompts": [
+    {
+     "titulo": "Guião de Reel de 30 segundos",
+     "texto": "Escreve um guião de Reel de 30 segundos sobre [tema] para [público]. Estrutura: gancho nos primeiros 3 segundos, 3 pontos rápidos, chamada à ação. Indica o texto no ecrã e o que se vê em cada cena.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "10 ganchos para um tema",
+     "texto": "Dá-me 10 ganchos diferentes para um vídeo sobre [tema]: pergunta, número, erro comum, contraste, segredo, antes/depois. Máximo 10 palavras cada.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Legenda que gera comentários",
+     "texto": "Escreve a legenda de uma publicação sobre [tema]. Primeira linha = gancho. Depois 3 a 5 linhas com valor, uma pergunta no fim que dê vontade de responder e 5 hashtags relevantes em português.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Reaproveitar um conteúdo",
+     "texto": "Transforma este texto em: 1 carrossel de 7 slides, 1 guião de Reel de 30 s, 3 Stories e 1 publicação para o LinkedIn. Mantém a mesma mensagem, adaptada a cada formato.\n\n[cola o texto]",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Artigo para o Google",
+     "texto": "Escreve um artigo de blogue de 800 palavras sobre \"[pergunta que as pessoas pesquisam]\". Usa subtítulos com perguntas, parágrafos curtos, um resumo no início e uma lista de perguntas frequentes no fim. Sugere o título e a meta descrição.",
+     "adicionado": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "financas",
+   "nome": "Finanças",
+   "icone": "💶",
+   "prompts": [
+    {
+     "titulo": "Orçamento familiar",
+     "texto": "Ajuda-me a fazer um orçamento mensal. Rendimento líquido: [valor]. Despesas fixas: [lista]. Organiza numa tabela por categorias, mostra quanto sobra e sugere onde cortar sem mexer no essencial.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Explicar um termo financeiro",
+     "texto": "Explica-me [termo, ex.: Euribor, spread, TAEG] em linguagem simples, com um exemplo em euros. Diz-me também o que devo perguntar ao banco sobre isto.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Analisar despesas da empresa",
+     "texto": "Vou colar as despesas dos últimos 3 meses. Agrupa por categoria, mostra a evolução, destaca os 5 maiores custos e sugere 3 formas de poupar.\n\n[cola os dados]",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Preço certo para um serviço",
+     "texto": "Quero definir o preço de [serviço]. Custos: [lista]. Horas por trabalho: [n]. Quanto quero ganhar por mês: [valor]. Calcula o preço mínimo, um preço recomendado e explica as contas passo a passo.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Fórmulas de Excel sem stress",
+     "texto": "Tenho uma folha de Excel com as colunas [lista]. Quero [o que queres calcular]. Dá-me a fórmula exata, explica cada parte e diz-me em que célula a colocar.",
+     "adicionado": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "recursos-humanos",
+   "nome": "Recursos humanos",
+   "icone": "👥",
+   "prompts": [
+    {
+     "titulo": "Anúncio de emprego atrativo",
+     "texto": "Escreve um anúncio de emprego para [função] em [cidade]. Inclui: sobre a empresa em 2 linhas, o que vai fazer, o que procuramos, o que oferecemos e como candidatar-se. Linguagem inclusiva e direta.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Perguntas de entrevista",
+     "texto": "Prepara 10 perguntas de entrevista para [função]: 4 técnicas, 4 comportamentais e 2 sobre motivação. Para cada uma, diz o que uma boa resposta deve mostrar.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Plano de integração",
+     "texto": "Cria um plano de integração para um novo [função] nas primeiras 4 semanas: objetivos por semana, quem acompanha, formações e um ponto de situação no fim de cada semana.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Feedback difícil",
+     "texto": "Tenho de dar feedback a um colaborador sobre [situação]. Ajuda-me a preparar a conversa: como começar, factos a referir, como ouvir, e como acabar com um plano acordado.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Avaliação de desempenho",
+     "texto": "Com base nestas notas, escreve uma avaliação de desempenho equilibrada: pontos fortes, pontos a melhorar com exemplos, e 3 objetivos para os próximos 6 meses.\n\n[cola as notas]",
+     "adicionado": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "atendimento",
+   "nome": "Atendimento ao cliente",
+   "icone": "💬",
+   "prompts": [
+    {
+     "titulo": "Resposta a uma reclamação",
+     "texto": "Um cliente escreveu isto: [cola a reclamação]. Escreve uma resposta que peça desculpa sem culpar ninguém, explique o que vai acontecer a seguir e proponha uma solução concreta. Tom calmo e humano.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Resposta a avaliação no Google",
+     "texto": "Escreve uma resposta a esta avaliação do Google do meu [negócio]: [cola a avaliação]. Agradece, responde ao ponto principal e convida a voltar. Máximo 60 palavras.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Perguntas frequentes",
+     "texto": "Com base nestas perguntas que os clientes fazem, cria uma página de perguntas frequentes com respostas curtas e claras, agrupadas por tema.\n\n[cola as perguntas]",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Respostas rápidas para WhatsApp",
+     "texto": "Cria 10 respostas rápidas para o WhatsApp Business do meu [negócio]: horário, preços, marcações, localização, pagamentos, atrasos, devoluções, agradecimento, pedido de avaliação e fora de horas.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Tom de voz da marca",
+     "texto": "Define o tom de voz do atendimento de [negócio]: 5 regras, palavras a usar e a evitar, e 3 exemplos de frases antes e depois.",
+     "adicionado": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "gestao",
+   "nome": "Gestão e produtividade",
+   "icone": "🗂️",
+   "prompts": [
+    {
+     "titulo": "Ata de reunião",
+     "texto": "Transforma estas notas numa ata: decisões tomadas, tarefas (quem, o quê, até quando) e temas em aberto. No fim, escreve o email de resumo para enviar aos participantes.\n\n[cola as notas]",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Planear a semana",
+     "texto": "Esta semana tenho de fazer: [lista]. Tenho [n] horas livres por dia. Organiza por prioridade (urgente/importante), distribui pelos dias e deixa tempo para imprevistos.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Decidir entre opções",
+     "texto": "Estou a decidir entre [opção A] e [opção B] para [objetivo]. Faz uma tabela com prós, contras, custos, riscos e o que acontece daqui a 1 ano em cada caso. Faz-me 3 perguntas antes de recomendar.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Resumir um documento longo",
+     "texto": "Resume este documento em 5 pontos, depois lista os números e datas importantes e, por fim, o que tenho de fazer a seguir.\n\n[cola o documento]",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Procedimento passo a passo",
+     "texto": "Escreve um procedimento claro para [tarefa da empresa], para alguém que nunca o fez: material necessário, passos numerados, erros comuns e como confirmar que ficou bem feito.",
+     "adicionado": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "estudo",
+   "nome": "Estudo e formação",
+   "icone": "🎓",
+   "prompts": [
+    {
+     "titulo": "Professor particular",
+     "texto": "Quero aprender [tema]. Ensina-me por partes: explica um conceito, faz-me uma pergunta e espera pela minha resposta antes de avançar. Corrige-me quando errar.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Resumo para exame",
+     "texto": "Resume esta matéria para um exame: conceitos principais, definições, um esquema e 10 perguntas de treino com as respostas no fim.\n\n[cola a matéria]",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Plano de estudo",
+     "texto": "Tenho exame de [disciplina] daqui a [n] dias e posso estudar [n] horas por dia. A matéria é: [lista]. Cria um plano diário com revisões e um dia de simulação.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Explicar como a uma criança",
+     "texto": "Explica [tema] como se eu tivesse 10 anos, com uma comparação do dia a dia. Depois explica outra vez ao nível de um estudante universitário.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Treino de línguas",
+     "texto": "Fala comigo em [inglês/francês] sobre [tema], com frases simples. Depois de cada resposta minha, corrige os erros em português e dá-me uma frase nova para treinar.",
+     "adicionado": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "restauracao-turismo",
+   "nome": "Restauração e turismo",
+   "icone": "🍽️",
+   "prompts": [
+    {
+     "titulo": "Descrição de pratos que abre o apetite",
+     "texto": "Reescreve estas descrições da carta do meu restaurante para serem curtas e apetitosas, em português e em inglês. Destaca ingredientes e origem quando for relevante.\n\n[cola a carta]",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Resposta a reservas e pedidos",
+     "texto": "Cria mensagens-modelo para: confirmar reserva, pedir confirmação no próprio dia, lidar com atraso, lista de espera e agradecimento depois da visita.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Anúncio de alojamento local",
+     "texto": "Escreve o anúncio do meu alojamento em [local]: título, descrição em 5 parágrafos curtos, o que há perto, regras da casa e 5 pontos fortes. Versão em português e em inglês.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Roteiro para hóspedes",
+     "texto": "Cria um roteiro de 2 dias em [cidade/região] para os meus hóspedes: o que ver, onde comer, dicas locais e alternativas para dia de chuva. Indica que convém confirmar horários antes de ir.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Promoção para época baixa",
+     "texto": "O meu [restaurante/alojamento] tem pouco movimento em [meses]. Dá-me 5 ideias de promoções ou eventos e escreve a publicação de Instagram para a melhor.",
+     "adicionado": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "imobiliario",
+   "nome": "Imobiliário",
+   "icone": "🏠",
+   "prompts": [
+    {
+     "titulo": "Anúncio de imóvel",
+     "texto": "Escreve o anúncio de um [T2/moradia] em [zona] com estas características: [lista]. Título forte, descrição que conte como é viver lá, pontos fortes em lista e chamada para marcar visita.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Mensagem para proprietários",
+     "texto": "Escreve uma mensagem curta para proprietários da zona [zona] que possam querer vender. Mostra que conheço a zona, oferece uma avaliação sem compromisso e não pressiona.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Preparar uma visita",
+     "texto": "Vou mostrar [imóvel] a um casal com [situação, ex.: 2 filhos]. Prepara: por onde começar a visita, 5 pontos a destacar para eles, objeções prováveis e como responder.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Seguimento depois da visita",
+     "texto": "Escreve 3 mensagens de seguimento depois de uma visita: no próprio dia, 3 dias depois e 1 semana depois. Simpáticas, úteis e sem pressão.",
+     "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Guia para quem compra casa",
+     "texto": "Cria um guia simples com os passos para comprar casa, do orçamento à escritura, e uma lista de perguntas a fazer ao banco e ao vendedor. No fim, lembra que os valores de impostos e custos devem ser confirmados nas fontes oficiais.",
+     "adicionado": "2026-11-01"
+    }
+   ]
+  }
+ ]
+}

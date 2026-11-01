@@ -1,0 +1,31 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Cria a tua primeira skill no Claude",
+  "tipo": "Tutorial",
+  "publicar_em": "2026-11-03T12:30",
+  "capa": "capa-tutorial-02.jpg",
+  "resumo": "Sem programar, em 4 passos.",
+  "pontos": [
+    "Numa conversa nova, diz ao Claude que skill queres criar",
+    "Responde às perguntas que ele te faz",
+    "Guarda a skill que ele cria",
+    "Confirma que está ativa em Personalizar › Skills"
+  ],
+  "prompts": [
+    {
+      "titulo": "Pedir uma skill",
+      "texto": "Ajuda-me a criar uma skill para [tarefa]. Faz-me as perguntas que precisares e usa estes exemplos meus: [cola exemplos]."
+    }
+  ],
+  "ferramentas": [
+    {
+      "nome": "Claude (Anthropic)",
+      "url": "https://claude.ai"
+    }
+  ],
+  "fonte": {
+    "nome": "Claude Academy",
+    "url": "https://academy.claude.com/tutorials/how-to-create-a-skill-with-claude-through-conversation"
+  },
+  "instagram_url": ""
+}

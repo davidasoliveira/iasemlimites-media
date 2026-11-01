@@ -1,0 +1,25 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Skills, Conectores e Plugins no Claude",
+  "tipo": "Aula",
+  "publicar_em": "2026-11-02T12:30",
+  "capa": "capa-reel-02.jpg",
+  "resumo": "A diferença explicada em 30 segundos.",
+  "pontos": [
+    "Conector = a chave: liga o Claude às tuas apps (Gmail, Calendar, Drive)",
+    "Skill = a receita: instruções que o Claude segue sempre que precisa",
+    "Plugin = a caixa de ferramentas: junta skills e conectores",
+    "Novidade: tudo numa só página \"Plugins\" na barra lateral"
+  ],
+  "ferramentas": [
+    {
+      "nome": "Claude (Anthropic)",
+      "url": "https://claude.ai"
+    }
+  ],
+  "fonte": {
+    "nome": "Ajuda oficial do Claude",
+    "url": "https://support.claude.com/en/articles/17740565-manage-plugins-skills-and-connectors-from-one-plugins-page"
+  },
+  "instagram_url": ""
+}
