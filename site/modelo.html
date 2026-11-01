@@ -3,12 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>IA SEM LIMITES | Dicas de IA</title>
-<meta name="description" content="Aprende Inteligência Artificial de forma simples, em português: ferramentas, tutoriais, prompts e novidades verificadas.">
-<meta property="og:title" content="IA SEM LIMITES">
-<meta property="og:description" content="Aprende. Descobre. Transforma. Ferramentas, tutoriais e prompts de IA em português.">
+<title>{{TITULO}}</title>
+<meta name="description" content="{{DESCRICAO}}">
+<link rel="canonical" href="{{SITE_URL}}{{CAMINHO}}">
+<meta property="og:title" content="{{TITULO}}">
+<meta property="og:description" content="{{DESCRICAO}}">
 <meta property="og:image" content="{{SITE_URL}}assets/partilha.jpg">
-<meta property="og:url" content="{{SITE_URL}}">
+<meta property="og:url" content="{{SITE_URL}}{{CAMINHO}}">
 <meta name="theme-color" content="#05070D">
 <link rel="icon" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -70,53 +71,39 @@ details li{margin:4px 0;font-size:14px}
 .contacto{background:linear-gradient(135deg,var(--marinho),#0d2a5c);border:1px solid var(--linha);border-radius:22px;padding:28px;text-align:center}
 .vazio{color:var(--cinza);background:var(--marinho);border:1px dashed var(--linha);border-radius:14px;padding:22px;text-align:center}
 footer{color:var(--cinza);font-size:13px;text-align:center;padding:40px 0 48px}
+nav.atalhos a.atual{color:var(--ciano)}
+header.topo.pequeno{padding:28px 0 8px}
+header.topo.pequeno h1{font-size:clamp(28px,6vw,44px)}
+.destaques{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.destaque{display:block;text-decoration:none;color:var(--branco);background:linear-gradient(135deg,var(--marinho),#0d2a5c);border:1px solid var(--linha);border-radius:18px;padding:20px}
+.destaque .num{font-size:40px;font-weight:900;line-height:1}
+.destaque h3{margin:6px 0 4px;font-size:19px}
+.destaque p{margin:0;color:var(--cinza);font-size:14px}
+.destaque .ir{display:inline-block;margin-top:10px;color:var(--ciano);font-weight:800;font-size:14px}
+.pesquisa{width:100%;font:inherit;font-size:16px;padding:13px 16px;border-radius:14px;border:1px solid var(--linha);background:var(--marinho);color:var(--branco);margin-bottom:12px}
+.pesquisa::placeholder{color:var(--cinza)}
+.setor{padding-top:28px;scroll-margin-top:60px}
+.setor h2{font-size:24px}
+.novo{font-size:11px;font-weight:900;color:var(--preto);background:var(--ciano);border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.passos{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.passo{background:var(--marinho);border:1px solid var(--linha);border-radius:16px;padding:16px;font-size:14px;color:#dfe8f7}
+.passo h3{margin:0 0 6px;font-size:16px;color:var(--branco)}
+.skill{background:var(--marinho);border:1px solid var(--linha);border-radius:18px;padding:16px;margin:0}
+.skill h3{margin:0 0 4px;font-size:18px}
+.skill p{margin:0 0 6px;color:var(--cinza);font-size:14px}
+.skill .exemplo{font-size:13px;color:var(--cinza)}
+.ferr{background:var(--marinho);border:1px solid var(--linha);border-radius:18px;padding:16px;text-decoration:none;color:var(--branco);display:block}
+.ferr h3{margin:0;font-size:18px}.ferr .emp{color:var(--cinza);font-size:13px}
+.ferr p{color:#dfe8f7;font-size:14px;margin:8px 0}
+.preco{display:inline-block;font-size:12px;font-weight:800;color:var(--ciano)}
+.nota{font-size:13px;color:var(--cinza)}
 @media (max-width:520px){.grelha{grid-template-columns:1fr 1fr;gap:10px}.cartao h3{font-size:15px}.corpo{padding:10px}.lista-prompts{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header class="topo envolve">
-  <img src="assets/simbolo.png" alt="Símbolo A da IA SEM LIMITES">
-  <h1>IA <span class="grad">SEM LIMITES</span></h1>
-  <p class="slogan">Aprende. Descobre. Transforma.</p>
-  <p class="sub">Inteligência Artificial sem complicações, em português. Tudo o que mostramos nos Reels, com as ferramentas, os links e os prompts prontos a copiar.</p>
-  <div class="botoes">
-    <a class="btn principal" href="{{INSTAGRAM}}" target="_blank" rel="noopener">Seguir no Instagram</a>
-    <a class="btn" href="#prompts">Prompts grátis ({{N_PROMPTS}})</a>
-  </div>
-</header>
-
-<nav class="atalhos" aria-label="Secções"><div class="envolve">
-  <a href="#reels">Últimos Reels</a><a href="#prompts">Prompts</a><a href="#series">Séries</a><a href="#contacto">Parcerias</a>
-</div></nav>
-
-<main class="envolve">
-  <section id="reels">
-    <h2>Últimos Reels</h2>
-    <p class="intro">Viste um Reel e queres o link ou o passo a passo? Está aqui.</p>
-    <div class="filtros">{{FILTROS}}</div>
-    <div class="grelha">{{CARTOES}}</div>
-  </section>
-
-  <section id="prompts">
-    <h2>Prompts prontos a copiar</h2>
-    <p class="intro">Funcionam no ChatGPT, Claude, Gemini e Copilot. Troca o que está entre [ ] pelo teu caso.</p>
-    <div class="lista-prompts">{{PROMPTS}}</div>
-  </section>
-
-  <section id="series">
-    <h2>As nossas séries</h2>
-    <p class="intro">Formatos fixos para aprenderes um pouco todos os dias.</p>
-    <div class="series">{{SERIES}}</div>
-  </section>
-
-  <section id="contacto">
-    <div class="contacto">
-      <h2>Parcerias e sugestões</h2>
-      <p class="intro">Tens uma ferramenta de IA para mostrarmos ou um tema que queres ver explicado? Fala connosco.</p>
-      <a class="btn principal" href="{{MENSAGEM}}" target="_blank" rel="noopener">Enviar mensagem no Instagram</a>
-    </div>
-  </section>
-</main>
+{{CABECALHO}}
+<nav class="atalhos" aria-label="Secções"><div class="envolve">{{MENU}}</div></nav>
+<main class="envolve">{{CONTEUDO}}</main>
 
 <footer class="envolve">
   Informação confirmada nas fontes oficiais de cada ferramenta. Atualizado a {{ATUALIZADO}}.<br>
@@ -136,6 +123,15 @@ document.querySelectorAll('.copiar').forEach(b => b.addEventListener('click', as
 document.querySelectorAll('.filtro').forEach(f => f.addEventListener('click', () => {
   document.querySelectorAll('.filtro').forEach(x => x.classList.toggle('ativo', x === f));
   document.querySelectorAll('.cartao').forEach(c => { c.hidden = f.dataset.f !== '*' && c.dataset.tipo !== f.dataset.f; });
+}));
+const caixa = document.querySelector('.pesquisa');
+if (caixa) caixa.addEventListener('input', () => {
+  const q = caixa.value.trim().toLowerCase();
+  document.querySelectorAll('[data-busca]').forEach(el => { el.hidden = q && !el.innerText.toLowerCase().includes(q); });
+  document.querySelectorAll('.setor').forEach(sec => { sec.hidden = !sec.querySelector('[data-busca]:not([hidden])'); });
+});
+document.querySelectorAll('.filtro[data-ir]').forEach(f => f.addEventListener('click', () => {
+  document.getElementById(f.dataset.ir).scrollIntoView({behavior:'smooth'});
 }));
 </script>
 </body>
