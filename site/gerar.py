@@ -37,8 +37,11 @@ def ler_publicacoes(agora):
     for info in sorted(RAIZ.glob("20??-??-??-*/info.json")):
         dados = json.loads(info.read_text(encoding="utf-8"))
         quando = datetime.fromisoformat(dados["publicar_em"]).replace(tzinfo=LISBOA)
-        if quando > agora:
+        # Publicações dos próximos 14 dias entram já no HTML, escondidas; o próprio
+        # navegador mostra-as à hora certa, mesmo que o GitHub atrase a reconstrução.
+        if (quando - agora).days >= 14:
             continue
+        dados["_futuro"] = quando > agora
         dados["_pasta"] = info.parent
         dados["_quando"] = quando
         pubs.append(dados)
@@ -69,6 +72,11 @@ def data_pt(d):
     return f"{d.day} {MESES[d.month - 1]} {d.year}"
 
 
+def atributos_tempo(pub):
+    utc = pub["_quando"].astimezone(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%M:%SZ")
+    return f' data-publicar="{utc}"' + (" data-espera hidden" if pub.get("_futuro") else "")
+
+
 def cartao(pub, capa):
     tipo = e(pub.get("tipo", "Reel"))
     link_ig = pub.get("instagram_url") or INSTAGRAM
@@ -88,7 +96,7 @@ def cartao(pub, capa):
         partes.append(f'<p class="fonte">Fonte: <a href="{e(f["url"])}" target="_blank" rel="noopener">{e(f["nome"])}</a></p>')
     partes.append(f'<a class="ver-ig" href="{e(link_ig)}" target="_blank" rel="noopener">Ver no Instagram →</a>')
     return f"""
-<article class="cartao" data-tipo="{tipo}">
+<article class="cartao" data-tipo="{tipo}"{atributos_tempo(pub)}>
   <img src="{capa}" alt="Capa: {e(pub['titulo'])}" loading="lazy" width="540" height="960">
   <div class="corpo">
     <div class="meta"><span class="etiqueta">{tipo}</span><time datetime="{pub['_quando'].date()}">{data_pt(pub['_quando'])}</time></div>
@@ -129,6 +137,13 @@ PAGINAS = [
     ("ferramentas.html", "Ferramentas"),
     ("index.html#contacto", "Parcerias"),
 ]
+
+
+def prompt_tempo(p, agora):
+    h = prompt_html(p, agora)
+    if "_pub" in p:
+        h = h.replace('class="prompt" data-busca', 'class="prompt" data-busca' + atributos_tempo(p["_pub"]), 1)
+    return h
 
 
 def menu(atual):
@@ -184,8 +199,9 @@ def gerar(saida, agora):
     filtros = '<button class="filtro ativo" data-f="*">Tudo</button>' + "".join(
         f'<button class="filtro" data-f="{e(t)}">{e(t)}</button>' for t in tipos
     )
+    if not any(not p.get("_futuro") for p in pubs):
+        cartoes += '<p class="vazio">As primeiras publicações chegam já hoje. Segue no Instagram para não perderes.</p>'
     if not pubs:
-        cartoes = '<p class="vazio">As primeiras publicações chegam já hoje. Segue no Instagram para não perderes.</p>'
         filtros = ""
     destaques = f"""<div class="destaques">
   <a class="destaque" href="prompts.html"><div class="num grad">{n_prompts}</div><h3>Prompts por setor</h3><p>Marketing, vendas, finanças, RH, atendimento e mais. Prontos a copiar.</p><span class="ir">Ver prompts →</span></a>
@@ -210,14 +226,14 @@ def gerar(saida, agora):
            inicio, agora)
 
     # ---------- Prompts ----------
-    dos_reels = [p for pub in pubs for p in pub.get("prompts", [])]
+    dos_reels = [dict(p, _pub=pub) for pub in pubs for p in pub.get("prompts", [])]
     setores = list(bib)
     if dos_reels:
         setores = [{"id": "dos-reels", "nome": "Dos nossos Reels", "icone": "▶️", "prompts": dos_reels}] + setores
     chips = "".join(f'<button class="filtro" data-ir="{s["id"]}">{s["icone"]} {e(s["nome"])}</button>' for s in setores)
     blocos = "".join(
         f'<section class="setor" id="{s["id"]}"><h2>{s["icone"]} {e(s["nome"])}</h2>'
-        f'<div class="lista-prompts">{"".join(prompt_html(p, agora) for p in s["prompts"])}</div></section>'
+        f'<div class="lista-prompts">{"".join(prompt_tempo(p, agora) for p in s["prompts"])}</div></section>'
         for s in setores
     )
     conteudo = f"""<section><p class="intro">Copia, cola no ChatGPT, Claude, Gemini ou Copilot e troca o que está entre [ ] pelo teu caso. Prompts originais, pensados para negócios e pessoas em Portugal.</p>
