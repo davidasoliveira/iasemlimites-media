@@ -1,0 +1,30 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "O Gemini agora cria e edita ficheiros",
+  "tipo": "Novidade",
+  "publicar_em": "2026-11-01T20:30",
+  "capa": "capa-gemini-ficheiros.jpg",
+  "resumo": "Pedes um PDF ao Gemini e ele faz, e deixa-te editá-lo ali mesmo. Grátis e em português.",
+  "pontos": [
+    "PDF no telemóvel e no computador",
+    "Documentos, folhas de cálculo, apresentações e código no site (computador)",
+    "Editas em ecrã inteiro ou selecionas uma parte e pedes alterações"
+  ],
+  "prompts": [
+    {
+      "titulo": "Guia de estudo em PDF",
+      "texto": "Faz-me um guia de estudo em PDF sobre [tema], com resumo, pontos principais e 5 perguntas de treino."
+    }
+  ],
+  "ferramentas": [
+    {
+      "nome": "Gemini (Google)",
+      "url": "https://gemini.google.com"
+    }
+  ],
+  "fonte": {
+    "nome": "Blog oficial da Google, 29 out. 2026",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/"
+  },
+  "instagram_url": ""
+}

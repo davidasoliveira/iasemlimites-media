@@ -1,0 +1,57 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "7 prompts para usar já",
+  "tipo": "Prompts",
+  "publicar_em": "2026-11-02T20:00",
+  "capa": "slide-01.png",
+  "resumo": "Prontos a copiar. Funcionam no ChatGPT, Claude, Gemini e Copilot, incluindo nas versões gratuitas.",
+  "prompts": [
+    {
+      "titulo": "Email sem stress",
+      "texto": "Resume este email em 3 pontos e escreve uma resposta curta, educada e direta. Tom: profissional mas simpático.\n\n[cola aqui o email]"
+    },
+    {
+      "titulo": "Explica-me fácil",
+      "texto": "Explica-me [tema] como se eu tivesse 12 anos. Usa um exemplo do dia a dia e termina com uma frase-resumo."
+    },
+    {
+      "titulo": "O teu crítico",
+      "texto": "Lê o texto abaixo como um revisor exigente. Diz-me os 3 maiores problemas e como corrigir cada um. Não reescrevas tudo.\n\n[cola o texto]"
+    },
+    {
+      "titulo": "Jantares da semana",
+      "texto": "Cria 5 jantares rápidos (máx. 30 min) para 2 pessoas, com ingredientes de supermercado português. No fim, junta a lista de compras por secções."
+    },
+    {
+      "titulo": "Notas → plano",
+      "texto": "Transforma estas notas soltas num plano de ação: tarefas, responsável, prazo e prioridade, numa tabela.\n\n[cola as notas]"
+    },
+    {
+      "titulo": "Prepara a reunião",
+      "texto": "Vou ter uma reunião sobre [tema] com [quem]. Dá-me: objetivo, 5 perguntas a fazer, 3 objeções prováveis e como responder."
+    },
+    {
+      "titulo": "Professor paciente",
+      "texto": "Quero aprender [tema]. Faz-me uma pergunta de cada vez, espera pela minha resposta e corrige-me antes de avançar."
+    }
+  ],
+  "ferramentas": [
+    {
+      "nome": "ChatGPT",
+      "url": "https://chatgpt.com"
+    },
+    {
+      "nome": "Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "nome": "Gemini",
+      "url": "https://gemini.google.com"
+    },
+    {
+      "nome": "Microsoft Copilot",
+      "url": "https://copilot.microsoft.com"
+    }
+  ],
+  "instagram_url": ""
+}

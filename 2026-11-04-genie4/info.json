@@ -1,0 +1,24 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Genie 4: a IA da Google que inventa mundos",
+  "tipo": "Novidade",
+  "publicar_em": "2026-11-04T12:30",
+  "capa": "capa-genie4-v2.jpg",
+  "resumo": "O novo modelo de mundos da Google DeepMind, anunciado a 27 de outubro.",
+  "pontos": [
+    "Escreves e o mundo muda em tempo real: câmara, tempo, personagens",
+    "O som também é criado na hora",
+    "Ainda não está aberto ao público: por agora só testadores"
+  ],
+  "ferramentas": [
+    {
+      "nome": "Genie 4 (Google DeepMind)",
+      "url": "https://deepmind.google/models/genie/"
+    }
+  ],
+  "fonte": {
+    "nome": "Blog oficial da Google, 27 out. 2026",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+  },
+  "instagram_url": ""
+}

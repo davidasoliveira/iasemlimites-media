@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IA SEM LIMITES | Dicas de IA</title>
+<meta name="description" content="Aprende Inteligência Artificial de forma simples, em português: ferramentas, tutoriais, prompts e novidades verificadas.">
+<meta property="og:title" content="IA SEM LIMITES">
+<meta property="og:description" content="Aprende. Descobre. Transforma. Ferramentas, tutoriais e prompts de IA em português.">
+<meta property="og:image" content="{{SITE_URL}}assets/partilha.jpg">
+<meta property="og:url" content="{{SITE_URL}}">
+<meta name="theme-color" content="#05070D">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--preto:#05070D;--marinho:#0A1A33;--azul:#1E6BFF;--ciano:#00E5FF;--branco:#FFFFFF;--cinza:#A9B8D0;--linha:rgba(0,229,255,.18)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--preto);color:var(--branco);font-family:Inter,system-ui,sans-serif;line-height:1.5;
+  background-image:radial-gradient(900px 500px at 50% -120px,rgba(30,107,255,.35),transparent 70%)}
+a{color:var(--ciano)}
+.envolve{max-width:1080px;margin:0 auto;padding:0 16px}
+header.topo{text-align:center;padding:48px 0 24px}
+header.topo img{width:96px;height:96px;border-radius:50%;background:var(--marinho);border:2px solid var(--linha);box-shadow:0 0 40px rgba(0,229,255,.25)}
+h1{font-size:clamp(32px,7vw,56px);font-weight:900;letter-spacing:-1.5px;margin:16px 0 4px}
+.grad{background:linear-gradient(90deg,var(--azul),var(--ciano));-webkit-background-clip:text;background-clip:text;color:transparent}
+.slogan{color:var(--cinza);font-weight:600;margin:0 0 6px}
+.sub{color:var(--cinza);max-width:520px;margin:0 auto 24px}
+.botoes{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 20px;border-radius:999px;font-weight:800;text-decoration:none;border:1px solid var(--linha);color:var(--branco);background:var(--marinho)}
+.btn.principal{background:linear-gradient(90deg,var(--azul),#3d8bff);border-color:transparent}
+nav.atalhos{position:sticky;top:0;z-index:5;background:rgba(5,7,13,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--linha);margin-top:32px}
+nav.atalhos .envolve{display:flex;gap:18px;overflow-x:auto;padding-top:12px;padding-bottom:12px}
+nav.atalhos a{color:var(--cinza);text-decoration:none;font-weight:600;white-space:nowrap}
+section{padding:40px 0 8px}
+h2{font-size:clamp(24px,4vw,32px);font-weight:900;letter-spacing:-.5px;margin:0 0 6px}
+.intro{color:var(--cinza);margin:0 0 20px}
+.filtros{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.filtro{font:inherit;font-weight:600;font-size:14px;padding:7px 14px;border-radius:999px;border:1px solid var(--linha);background:transparent;color:var(--cinza);cursor:pointer}
+.filtro.ativo{background:var(--ciano);color:var(--preto);border-color:var(--ciano)}
+.grelha{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.cartao{background:var(--marinho);border:1px solid var(--linha);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
+.cartao img{width:100%;height:auto;aspect-ratio:9/16;object-fit:cover;max-height:420px;display:block;background:#0d2347}
+.corpo{padding:14px 16px 16px}
+.meta{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--cinza)}
+.etiqueta{color:var(--ciano);font-weight:800;text-transform:uppercase;letter-spacing:.6px;font-size:12px}
+.cartao h3{font-size:18px;line-height:1.25;margin:6px 0 10px}
+details summary{cursor:pointer;color:var(--ciano);font-weight:600;font-size:14px}
+details ul{padding-left:18px;margin:10px 0}
+details li{margin:4px 0;font-size:14px}
+.resumo{margin:10px 0 0;font-size:14px;color:#dfe8f7}
+.ferramentas{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:10px 0;font-size:13px;color:var(--cinza)}
+.chip{padding:4px 10px;border-radius:999px;background:rgba(30,107,255,.18);text-decoration:none;font-weight:600}
+.fonte{font-size:12px;color:var(--cinza);margin:6px 0}
+.ver-ig{display:inline-block;margin-top:6px;font-weight:800;font-size:14px;text-decoration:none}
+.prompt{background:var(--preto);border:1px solid var(--linha);border-radius:12px;padding:12px;margin:10px 0}
+.prompt-topo{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.prompt pre{white-space:pre-wrap;font-family:inherit;font-size:14px;color:#dfe8f7;margin:8px 0 0}
+.copiar{font:inherit;font-size:13px;font-weight:800;padding:5px 12px;border-radius:999px;border:0;background:var(--azul);color:var(--branco);cursor:pointer}
+.copiar.ok{background:var(--ciano);color:var(--preto)}
+.lista-prompts{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.lista-prompts .prompt{background:var(--marinho);margin:0}
+.series{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.serie{background:var(--marinho);border:1px solid var(--linha);border-radius:18px;padding:18px}
+.serie .ico{font-size:28px}
+.serie h3{margin:8px 0 4px;font-size:18px}
+.serie p{margin:0;color:var(--cinza);font-size:14px}
+.contacto{background:linear-gradient(135deg,var(--marinho),#0d2a5c);border:1px solid var(--linha);border-radius:22px;padding:28px;text-align:center}
+.vazio{color:var(--cinza);background:var(--marinho);border:1px dashed var(--linha);border-radius:14px;padding:22px;text-align:center}
+footer{color:var(--cinza);font-size:13px;text-align:center;padding:40px 0 48px}
+@media (max-width:520px){.grelha{grid-template-columns:1fr 1fr;gap:10px}.cartao h3{font-size:15px}.corpo{padding:10px}.lista-prompts{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="topo envolve">
+  <img src="assets/simbolo.png" alt="Símbolo A da IA SEM LIMITES">
+  <h1>IA <span class="grad">SEM LIMITES</span></h1>
+  <p class="slogan">Aprende. Descobre. Transforma.</p>
+  <p class="sub">Inteligência Artificial sem complicações, em português. Tudo o que mostramos nos Reels, com as ferramentas, os links e os prompts prontos a copiar.</p>
+  <div class="botoes">
+    <a class="btn principal" href="{{INSTAGRAM}}" target="_blank" rel="noopener">Seguir no Instagram</a>
+    <a class="btn" href="#prompts">Prompts grátis ({{N_PROMPTS}})</a>
+  </div>
+</header>
+
+<nav class="atalhos" aria-label="Secções"><div class="envolve">
+  <a href="#reels">Últimos Reels</a><a href="#prompts">Prompts</a><a href="#series">Séries</a><a href="#contacto">Parcerias</a>
+</div></nav>
+
+<main class="envolve">
+  <section id="reels">
+    <h2>Últimos Reels</h2>
+    <p class="intro">Viste um Reel e queres o link ou o passo a passo? Está aqui.</p>
+    <div class="filtros">{{FILTROS}}</div>
+    <div class="grelha">{{CARTOES}}</div>
+  </section>
+
+  <section id="prompts">
+    <h2>Prompts prontos a copiar</h2>
+    <p class="intro">Funcionam no ChatGPT, Claude, Gemini e Copilot. Troca o que está entre [ ] pelo teu caso.</p>
+    <div class="lista-prompts">{{PROMPTS}}</div>
+  </section>
+
+  <section id="series">
+    <h2>As nossas séries</h2>
+    <p class="intro">Formatos fixos para aprenderes um pouco todos os dias.</p>
+    <div class="series">{{SERIES}}</div>
+  </section>
+
+  <section id="contacto">
+    <div class="contacto">
+      <h2>Parcerias e sugestões</h2>
+      <p class="intro">Tens uma ferramenta de IA para mostrarmos ou um tema que queres ver explicado? Fala connosco.</p>
+      <a class="btn principal" href="{{MENSAGEM}}" target="_blank" rel="noopener">Enviar mensagem no Instagram</a>
+    </div>
+  </section>
+</main>
+
+<footer class="envolve">
+  Informação confirmada nas fontes oficiais de cada ferramenta. Atualizado a {{ATUALIZADO}}.<br>
+  © {{ANO}} IA SEM LIMITES
+</footer>
+
+<script>
+document.querySelectorAll('.copiar').forEach(b => b.addEventListener('click', async () => {
+  const texto = b.closest('.prompt').querySelector('pre').innerText;
+  try { await navigator.clipboard.writeText(texto); } catch (_) {
+    const t = document.createElement('textarea'); t.value = texto; document.body.appendChild(t); t.select();
+    try { document.execCommand('copy'); } catch (_) {} t.remove();
+  }
+  b.textContent = 'Copiado ✓'; b.classList.add('ok');
+  setTimeout(() => { b.textContent = 'Copiar'; b.classList.remove('ok'); }, 1800);
+}));
+document.querySelectorAll('.filtro').forEach(f => f.addEventListener('click', () => {
+  document.querySelectorAll('.filtro').forEach(x => x.classList.toggle('ativo', x === f));
+  document.querySelectorAll('.cartao').forEach(c => { c.hidden = f.dataset.f !== '*' && c.dataset.tipo !== f.dataset.f; });
+}));
+</script>
+</body>
+</html>
