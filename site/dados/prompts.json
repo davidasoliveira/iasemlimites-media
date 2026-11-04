@@ -30,6 +30,11 @@
      "titulo": "Campanha para uma data",
      "texto": "Cria uma campanha para [Black Friday / Natal / Dia da Mãe] para [negócio]. Dá-me: ideia central, 3 publicações, 1 email, 1 mensagem de WhatsApp para clientes e um calendário de envio. Tom: [próximo/profissional].",
      "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Newsletter que se abre",
+     "texto": "Escreve uma newsletter curta para os clientes de [negócio] sobre [novidade ou tema]. Dá-me 5 opções de assunto (máx. 45 caracteres), um texto de 120 palavras com um só pedido de ação claro e uma frase final simpática. Tom: próximo, sem exageros.",
+     "adicionado": "2026-11-04"
     }
    ]
   },
@@ -62,6 +67,11 @@
      "titulo": "Proposta comercial",
      "texto": "Com base nestas notas da reunião, escreve uma proposta comercial com: resumo do problema, solução, o que está incluído, prazos, investimento e próximos passos. Linguagem clara, sem jargão.\n\n[cola as notas]",
      "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Preparar uma negociação",
+     "texto": "Vou negociar [o quê] com [cliente/fornecedor]. O meu objetivo é [objetivo] e o mínimo que aceito é [limite]. Diz-me: o que a outra parte provavelmente quer, 3 cedências que posso fazer sem perder, 3 perguntas para abrir a conversa e o que dizer se pedirem desconto.",
+     "adicionado": "2026-11-04"
     }
    ]
   },
@@ -94,6 +104,11 @@
      "titulo": "Artigo para o Google",
      "texto": "Escreve um artigo de blogue de 800 palavras sobre \"[pergunta que as pessoas pesquisam]\". Usa subtítulos com perguntas, parágrafos curtos, um resumo no início e uma lista de perguntas frequentes no fim. Sugere o título e a meta descrição.",
      "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Calendário de publicações da semana",
+     "texto": "Cria um calendário de 7 dias para o Instagram de [negócio/tema]. Para cada dia: formato (Reel, carrossel ou história), ideia, gancho da primeira frase e pedido de ação. Mistura conteúdos que ensinam, que divertem e que vendem, sem repetir ideias.",
+     "adicionado": "2026-11-04"
     }
    ]
   },
@@ -126,6 +141,11 @@
      "titulo": "Fórmulas de Excel sem stress",
      "texto": "Tenho uma folha de Excel com as colunas [lista]. Quero [o que queres calcular]. Dá-me a fórmula exata, explica cada parte e diz-me em que célula a colocar.",
      "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Comparar duas propostas",
+     "texto": "Compara estas duas propostas de [serviço/fornecedor] numa tabela: preço total, o que inclui, prazos, fidelização, custos escondidos e riscos. No fim, diz qual escolherias e porquê, e que perguntas devo fazer antes de assinar.\n\n[cola as duas propostas]",
+     "adicionado": "2026-11-04"
     }
    ]
   },
@@ -158,6 +178,11 @@
      "titulo": "Avaliação de desempenho",
      "texto": "Com base nestas notas, escreve uma avaliação de desempenho equilibrada: pontos fortes, pontos a melhorar com exemplos, e 3 objetivos para os próximos 6 meses.\n\n[cola as notas]",
      "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Comunicar uma mudança à equipa",
+     "texto": "Tenho de comunicar à equipa esta mudança: [descreve a mudança]. Escreve uma mensagem clara e humana que explique o quê, porquê, quando começa e o que muda para cada pessoa. Junta as 5 perguntas que a equipa provavelmente vai fazer, com respostas curtas.",
+     "adicionado": "2026-11-04"
     }
    ]
   },
@@ -190,6 +215,11 @@
      "titulo": "Tom de voz da marca",
      "texto": "Define o tom de voz do atendimento de [negócio]: 5 regras, palavras a usar e a evitar, e 3 exemplos de frases antes e depois.",
      "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Pedir desculpa por um atraso",
+     "texto": "Um cliente está à espera de [encomenda/serviço] com [X dias] de atraso por causa de [motivo]. Escreve uma mensagem de desculpa honesta, sem desculpas esfarrapadas, com a nova data, o que vamos fazer para compensar ([compensação]) e um contacto direto. Máx. 100 palavras.",
+     "adicionado": "2026-11-04"
     }
    ]
   },
@@ -222,6 +252,11 @@
      "titulo": "Procedimento passo a passo",
      "texto": "Escreve um procedimento claro para [tarefa da empresa], para alguém que nunca o fez: material necessário, passos numerados, erros comuns e como confirmar que ficou bem feito.",
      "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Definir prioridades",
+     "texto": "Esta é a minha lista de tarefas: [cola a lista]. Organiza-a em 4 grupos: urgente e importante, importante mas não urgente, urgente mas delegável, e para eliminar. Diz-me por onde começar hoje e o que posso dizer \"não\" sem problema.",
+     "adicionado": "2026-11-04"
     }
    ]
   },
@@ -254,6 +289,11 @@
      "titulo": "Treino de línguas",
      "texto": "Fala comigo em [inglês/francês] sobre [tema], com frases simples. Depois de cada resposta minha, corrige os erros em português e dá-me uma frase nova para treinar.",
      "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Testa-me antes do exame",
+     "texto": "Vou ter exame de [disciplina] sobre [matéria]. Faz-me 10 perguntas, uma de cada vez, das mais fáceis às mais difíceis. Espera pela minha resposta, corrige-a, explica o erro em 2 frases e, no fim, diz-me os 3 temas que tenho de rever.",
+     "adicionado": "2026-11-04"
     }
    ]
   },
