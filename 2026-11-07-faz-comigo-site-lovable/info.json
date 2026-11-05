@@ -1,0 +1,21 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Faz comigo: cria um site sem saber programar",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-11-07T12:30",
+  "capa": "capa-faz-comigo-site.jpg",
+  "resumo": "Cria o site do teu negócio na Lovable, sem saber programar: um prompt, ajustes a conversar e um link para partilhar.",
+  "pontos": [
+    "1️⃣ Abre lovable.dev e cria conta grátis",
+    "2️⃣ Cola o prompt e troca o que está entre [ ]",
+    "3️⃣ Ajusta a conversar",
+    "4️⃣ Publica e partilha o link .lovable.app",
+    "💸 Grátis: 5 créditos por dia, até 30 por mês"
+  ],
+  "prompts": [
+    {"titulo": "Site de uma página para o teu negócio", "texto": "Cria um site de uma página para [a minha pastelaria, Doce Lar].\nSecções: apresentação com uma frase forte, menu com [croissants, bolos e café] e preços, horário [de segunda a sábado, das 8h às 19h], morada [rua e cidade] e um botão grande para encomendar por [telefone/WhatsApp].\nEstilo: [acolhedor, tons quentes], fácil de ler no telemóvel. Escreve tudo em português de Portugal."}
+  ],
+  "ferramentas": [{"nome": "Lovable", "url": "https://lovable.dev"}],
+  "fonte": {"nome": "Lovable: preços e planos", "url": "https://lovable.dev/pricing"},
+  "instagram_url": ""
+}
