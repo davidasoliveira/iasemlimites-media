@@ -1,0 +1,21 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "O ChatGPT agora faz GIFs",
+  "tipo": "Novidade",
+  "publicar_em": "2026-11-05T20:30",
+  "capa": "capa-chatgpt-gifs.jpg",
+  "resumo": "O ChatGPT agora cria GIFs animados com o Images 2.6, também na versão grátis.",
+  "pontos": [
+    "🎞️ GIFs a partir de um pedido ou de uma imagem",
+    "✏️ Anima os teus desenhos",
+    "⏱️ Velocidade ajustável e partilha",
+    "⚡ Imagens 50% mais rápidas"
+  ],
+  "prompts": [
+    {"titulo": "GIF a partir de um pedido", "texto": "Cria um GIF em loop de [um gato a dançar], estilo desenho animado, fundo simples."},
+    {"titulo": "Animar um desenho teu", "texto": "Anima esta personagem a acenar, em GIF."}
+  ],
+  "ferramentas": [{"nome": "ChatGPT", "url": "https://chatgpt.com"}],
+  "fonte": {"nome": "OpenAI: Introducing Images 2.6", "url": "https://openai.com/index/introducing-images-2-6/"},
+  "instagram_url": ""
+}
