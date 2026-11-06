@@ -1,0 +1,24 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Faz comigo, Ep. 2: Projetos, a IA que se lembra de ti",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-11-08T12:30",
+  "capa": "capa-faz-comigo-ep2.jpg",
+  "resumo": "Cria um Projeto no ChatGPT ou no Claude, ou um Gem no Gemini, para a IA se lembrar das tuas instruções e ficheiros.",
+  "pontos": [
+    "📁 ChatGPT: Projetos (grátis: até 5 ficheiros por projeto)",
+    "📁 Claude: Projetos (grátis: até 5 projetos)",
+    "💎 Gemini: Gems, com instruções e ficheiros",
+    "💡 1 projeto por assunto"
+  ],
+  "prompts": [
+    {"titulo": "Instruções para o teu projeto", "texto": "Sou [dono de uma pastelaria chamada Doce Lar].\nAjuda-me com [publicações, respostas a clientes e emails].\nEscreve sempre em português de Portugal, num tom [simpático e curto].\nUsa os ficheiros deste projeto como fonte e pergunta-me se faltar informação."}
+  ],
+  "ferramentas": [
+    {"nome": "ChatGPT", "url": "https://chatgpt.com"},
+    {"nome": "Claude", "url": "https://claude.ai"},
+    {"nome": "Gemini", "url": "https://gemini.google.com"}
+  ],
+  "fonte": {"nome": "Ajuda oficial: Projects in ChatGPT", "url": "https://help.openai.com/en/articles/10169521-projects-in-chatgpt"},
+  "instagram_url": ""
+}
