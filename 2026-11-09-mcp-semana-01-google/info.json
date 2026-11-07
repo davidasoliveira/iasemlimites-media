@@ -1,0 +1,27 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "MCP da semana #1: Claude ligado ao Gmail, Calendar e Drive",
+  "tipo": "MCP da semana",
+  "publicar_em": "2026-11-09T12:30",
+  "capa": "capa-mcp-semana-01.jpg",
+  "resumo": "MCP da semana #1: liga o Claude ao Gmail, ao Google Calendar e ao Drive, grátis em todos os planos.",
+  "pontos": [
+    "📧 Resume emails e escreve respostas",
+    "📅 Marca na agenda e encontra horas livres",
+    "📂 Encontra ficheiros no Drive",
+    "✅ Pede aprovação antes de agir"
+  ],
+  "prompts": [
+    {"titulo": "Gmail", "texto": "Resume os emails que recebi hoje e diz-me quais precisam de resposta."},
+    {"titulo": "Google Calendar", "texto": "Que horas tenho livres na quinta? Marca café com a Ana às 16h."},
+    {"titulo": "Google Drive", "texto": "Encontra no meu Drive o PDF do contrato da casa."}
+  ],
+  "ferramentas": [
+    {"nome": "Claude", "url": "https://claude.ai"},
+    {"nome": "Gmail", "url": "https://mail.google.com"},
+    {"nome": "Google Calendar", "url": "https://calendar.google.com"},
+    {"nome": "Google Drive", "url": "https://drive.google.com"}
+  ],
+  "fonte": {"nome": "Claude Help Center: Use Google Workspace connectors", "url": "https://support.claude.com/en/articles/10166901-use-google-workspace-connectors"},
+  "instagram_url": ""
+}
