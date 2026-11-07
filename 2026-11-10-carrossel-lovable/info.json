@@ -1,0 +1,22 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "3 coisas que podes criar hoje na Lovable",
+  "tipo": "Carrossel",
+  "publicar_em": "2026-11-10T20:00",
+  "capa": "slide-01.png",
+  "resumo": "3 coisas que podes criar hoje na Lovable, sem saber programar e no plano grátis: um site, um convite e uma app de contas.",
+  "pontos": [
+    "🧁 O site do teu negócio",
+    "🎉 O convite da tua festa",
+    "💶 A tua app de contas do mês",
+    "💸 Grátis: 5 créditos por dia, até 30 por mês"
+  ],
+  "prompts": [
+    {"titulo": "O site do teu negócio", "texto": "Cria um site de uma página para [a minha pastelaria, Doce Lar]: frase de apresentação, menu com preços, horário, morada e um botão para encomendar por [WhatsApp]. Fácil de ler no telemóvel. Tudo em português de Portugal."},
+    {"titulo": "O convite da tua festa", "texto": "Cria uma página de convite para [o aniversário da Maria, 40 anos], no dia [12 de dezembro, às 20h], em [nome do restaurante]. Inclui contagem decrescente, programa da noite e um botão para confirmar presença por [WhatsApp]."},
+    {"titulo": "A tua app de contas do mês", "texto": "Cria uma mini-app para controlar as despesas do mês: escrevo o valor e a categoria (casa, comida, transportes, lazer) e ela mostra o total por categoria num gráfico e quanto me sobra de [1200 €]."}
+  ],
+  "ferramentas": [{"nome": "Lovable", "url": "https://lovable.dev"}],
+  "fonte": {"nome": "Lovable: preços e planos", "url": "https://lovable.dev/pricing"},
+  "instagram_url": ""
+}
