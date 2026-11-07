@@ -1,0 +1,25 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Faz comigo: os jantares da semana planeados em 1 minuto",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-11-10T12:30",
+  "capa": "capa-faz-comigo-refeicoes.jpg",
+  "resumo": "Planeia os jantares da semana com a IA, dentro do orçamento e com a lista de compras pronta.",
+  "pontos": [
+    "1️⃣ Cola o prompt e troca o que está entre [ ]",
+    "2️⃣ Ajusta a conversar",
+    "3️⃣ Pede a lista por secções do supermercado",
+    "💡 Diz o que já tens no frigorífico"
+  ],
+  "prompts": [
+    {"titulo": "Jantares da semana com orçamento", "texto": "Planeia os jantares de [segunda a sexta] para [4 pessoas], com um orçamento de [60 €] para a semana.\nQuero refeições simples, com no máximo [30 minutos] de preparação, e que aproveitem sobras de um dia para o outro.\nEvita [peixe com espinhas / glúten / o que não comem].\nNo fim, faz a lista de compras organizada por secções do supermercado (frescos, talho, peixaria, laticínios e mercearia), com as quantidades."}
+  ],
+  "ferramentas": [
+    {"nome": "ChatGPT", "url": "https://chatgpt.com"},
+    {"nome": "Claude", "url": "https://claude.ai"},
+    {"nome": "Gemini", "url": "https://gemini.google.com"},
+    {"nome": "Microsoft Copilot", "url": "https://copilot.microsoft.com"}
+  ],
+  "fonte": {"nome": "Conteúdo original IA SEM LIMITES", "url": "https://iasemlimites.github.io/"},
+  "instagram_url": ""
+}
