@@ -2,7 +2,7 @@
   "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
   "titulo": "Faz comigo, Ep. 1: um bom prompt tem 4 peças",
   "tipo": "Faz comigo",
-  "publicar_em": "2026-11-06T12:30",
+  "publicar_em": "2026-11-11T12:30",
   "capa": "capa-faz-comigo-ep1.jpg",
   "resumo": "Um bom prompt tem 4 peças: papel, tarefa, contexto e formato. Copia o modelo e usa em qualquer IA.",
   "pontos": [
@@ -22,11 +22,26 @@
     }
   ],
   "ferramentas": [
-    {"nome": "ChatGPT", "url": "https://chatgpt.com"},
-    {"nome": "Claude", "url": "https://claude.ai"},
-    {"nome": "Gemini", "url": "https://gemini.google.com"},
-    {"nome": "Microsoft Copilot", "url": "https://copilot.microsoft.com"}
+    {
+      "nome": "ChatGPT",
+      "url": "https://chatgpt.com"
+    },
+    {
+      "nome": "Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "nome": "Gemini",
+      "url": "https://gemini.google.com"
+    },
+    {
+      "nome": "Microsoft Copilot",
+      "url": "https://copilot.microsoft.com"
+    }
   ],
-  "fonte": {"nome": "Conteúdo original IA SEM LIMITES", "url": "https://iasemlimites.github.io/"},
+  "fonte": {
+    "nome": "Conteúdo original IA SEM LIMITES",
+    "url": "https://iasemlimites.github.io/"
+  },
   "instagram_url": ""
 }

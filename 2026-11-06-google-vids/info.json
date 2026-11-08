@@ -2,7 +2,7 @@
   "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
   "titulo": "Vídeos com IA grátis no Google Vids",
   "tipo": "Novidade",
-  "publicar_em": "2026-11-06T20:30",
+  "publicar_em": "2026-11-14T12:30",
   "capa": "capa-google-vids.jpg",
   "resumo": "O Google Vids faz vídeos de 15 segundos com IA, grátis: até 3 por mês com conta Google.",
   "pontos": [
@@ -12,9 +12,20 @@
     "🎉 Grátis: 3 vídeos por mês"
   ],
   "prompts": [
-    {"titulo": "Vídeo de 15 s no Google Vids", "texto": "Um gato astronauta a acenar na Lua, estilo desenho animado, câmara a aproximar devagar."}
+    {
+      "titulo": "Vídeo de 15 s no Google Vids",
+      "texto": "Um gato astronauta a acenar na Lua, estilo desenho animado, câmara a aproximar devagar."
+    }
   ],
-  "ferramentas": [{"nome": "Google Vids", "url": "https://vids.new"}],
-  "fonte": {"nome": "Blog da Google: Omni 1.2 Flash no Google Vids", "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/"},
+  "ferramentas": [
+    {
+      "nome": "Google Vids",
+      "url": "https://vids.new"
+    }
+  ],
+  "fonte": {
+    "nome": "Blog da Google: Omni 1.2 Flash no Google Vids",
+    "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/"
+  },
   "instagram_url": ""
 }
