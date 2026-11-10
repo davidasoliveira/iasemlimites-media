@@ -1,0 +1,20 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Os Gems vão acabar: o que fazer",
+  "tipo": "Novidade",
+  "publicar_em": "2026-11-15T20:30",
+  "capa": "capa-gems-acabam.jpg",
+  "resumo": "Os Gems do Gemini ficam só de leitura a 17 nov. e são apagados a 17 dez. Passa-os para skills assim.",
+  "pontos": [
+    "📅 17 nov.: só de leitura · 17 dez.: apagados",
+    "✨ Passam a skills sozinhos, ou à mão",
+    "⌨️ Usa com \"/\" em qualquer chat",
+    "📥 Descarrega áudio, vídeo e .zip antes de 17 dez."
+  ],
+  "prompts": [
+    {"titulo": "Exemplo de uso de uma skill", "texto": "/revisor-pt-pt revê este email"}
+  ],
+  "ferramentas": [{"nome": "Gemini", "url": "https://gemini.google.com"}],
+  "fonte": {"nome": "Ajuda do Gemini: Gems passam a skills", "url": "https://support.google.com/gemini/answer/18560919?hl=en"},
+  "instagram_url": ""
+}
