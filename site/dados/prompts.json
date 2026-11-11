@@ -35,6 +35,11 @@
      "titulo": "Newsletter que se abre",
      "texto": "Escreve uma newsletter curta para os clientes de [negócio] sobre [novidade ou tema]. Dá-me 5 opções de assunto (máx. 45 caracteres), um texto de 120 palavras com um só pedido de ação claro e uma frase final simpática. Tom: próximo, sem exageros.",
      "adicionado": "2026-11-04"
+    },
+    {
+     "titulo": "Ideias para o Google Meu Negócio",
+     "texto": "Tenho um negócio de [tipo de negócio] em [localidade]. Dá-me 8 ideias de publicações para o perfil do Google, cada uma com título, texto de 2 frases e o tipo de foto a usar. Mistura novidades, ofertas, bastidores e dicas para clientes.",
+     "adicionado": "2026-11-11"
     }
    ]
   },
@@ -72,6 +77,11 @@
      "titulo": "Preparar uma negociação",
      "texto": "Vou negociar [o quê] com [cliente/fornecedor]. O meu objetivo é [objetivo] e o mínimo que aceito é [limite]. Diz-me: o que a outra parte provavelmente quer, 3 cedências que posso fazer sem perder, 3 perguntas para abrir a conversa e o que dizer se pedirem desconto.",
      "adicionado": "2026-11-04"
+    },
+    {
+     "titulo": "Reativar clientes antigos",
+     "texto": "Escreve uma mensagem curta para clientes que não compram há mais de [X meses] em [negócio]. Tom próximo, sem pressão. Lembra o que gostavam, apresenta uma novidade ([novidade]) e termina com uma pergunta simples para responderem. Dá-me 3 versões: email, SMS e WhatsApp.",
+     "adicionado": "2026-11-11"
     }
    ]
   },
@@ -109,6 +119,11 @@
      "titulo": "Calendário de publicações da semana",
      "texto": "Cria um calendário de 7 dias para o Instagram de [negócio/tema]. Para cada dia: formato (Reel, carrossel ou história), ideia, gancho da primeira frase e pedido de ação. Mistura conteúdos que ensinam, que divertem e que vendem, sem repetir ideias.",
      "adicionado": "2026-11-04"
+    },
+    {
+     "titulo": "Transformar um Reel num carrossel",
+     "texto": "Tenho este guião de Reel: [cola o guião]. Transforma-o num carrossel de 7 slides para o Instagram: slide 1 com gancho forte, slides 2 a 6 com uma ideia cada (máx. 20 palavras), slide 7 com pedido de ação. Sugere também o texto da descrição.",
+     "adicionado": "2026-11-11"
     }
    ]
   },
@@ -146,6 +161,11 @@
      "titulo": "Comparar duas propostas",
      "texto": "Compara estas duas propostas de [serviço/fornecedor] numa tabela: preço total, o que inclui, prazos, fidelização, custos escondidos e riscos. No fim, diz qual escolherias e porquê, e que perguntas devo fazer antes de assinar.\n\n[cola as duas propostas]",
      "adicionado": "2026-11-04"
+    },
+    {
+     "titulo": "Preparar a reunião com o contabilista",
+     "texto": "Vou reunir com o meu contabilista sobre [tema: IRS, IVA, abrir atividade, etc.]. Faz-me uma lista das perguntas a fazer, dos documentos que devo levar e dos termos que preciso de perceber, explicados de forma simples. Não me dês conselhos fiscais definitivos.",
+     "adicionado": "2026-11-11"
     }
    ]
   },
@@ -257,6 +277,11 @@
      "titulo": "Definir prioridades",
      "texto": "Esta é a minha lista de tarefas: [cola a lista]. Organiza-a em 4 grupos: urgente e importante, importante mas não urgente, urgente mas delegável, e para eliminar. Diz-me por onde começar hoje e o que posso dizer \"não\" sem problema.",
      "adicionado": "2026-11-04"
+    },
+    {
+     "titulo": "Checklist de abertura e fecho",
+     "texto": "Cria uma checklist de abertura e outra de fecho para [tipo de negócio], com as tarefas por ordem, quem faz cada uma e quanto tempo demora. No fim, assinala as 3 tarefas que nunca podem falhar.",
+     "adicionado": "2026-11-11"
     }
    ]
   },
@@ -326,6 +351,11 @@
      "titulo": "Promoção para época baixa",
      "texto": "O meu [restaurante/alojamento] tem pouco movimento em [meses]. Dá-me 5 ideias de promoções ou eventos e escreve a publicação de Instagram para a melhor.",
      "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Menu do dia em 3 línguas",
+     "texto": "Tenho este menu do dia: [cola os pratos e preços]. Escreve-o de forma apetitosa em português, inglês e francês, com uma linha curta por prato. Assinala os pratos vegetarianos e os alergénios mais comuns que eu indicar: [alergénios]. Não inventes ingredientes.",
+     "adicionado": "2026-11-11"
     }
    ]
   },
@@ -358,6 +388,11 @@
      "titulo": "Guia para quem compra casa",
      "texto": "Cria um guia simples com os passos para comprar casa, do orçamento à escritura, e uma lista de perguntas a fazer ao banco e ao vendedor. No fim, lembra que os valores de impostos e custos devem ser confirmados nas fontes oficiais.",
      "adicionado": "2026-11-01"
+    },
+    {
+     "titulo": "Descrição da zona para compradores",
+     "texto": "Escreve um texto curto sobre a zona de [bairro/cidade] para um anúncio de casa. Fala de transportes, escolas, comércio e ambiente, só com a informação que te dou: [cola os dados]. Tom: honesto e simpático, sem exageros. Máx. 120 palavras.",
+     "adicionado": "2026-11-11"
     }
    ]
   }
