@@ -1,0 +1,25 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "O Gemini chegou ao Apple CarPlay",
+  "tipo": "Novidade",
+  "publicar_em": "2026-11-12T20:30",
+  "capa": "capa-gemini-carplay.jpg",
+  "resumo": "O Gemini Live chegou ao Apple CarPlay: conversa por voz com a IA no carro, grátis no iPhone.",
+  "pontos": [
+    "🎙️ Conversas por voz, mãos livres",
+    "📬 Agenda e emails (com as apps Google ligadas)",
+    "🎤 Ensaiar apresentações em voz alta",
+    "⚠️ Prepara tudo antes de arrancar"
+  ],
+  "prompts": [
+    {"titulo": "Agenda", "texto": "O que tenho na agenda hoje de manhã?"},
+    {"titulo": "Ensaiar uma reunião", "texto": "Ajuda-me a ensaiar a reunião, faz de cliente difícil."},
+    {"titulo": "Onde almoçar", "texto": "Onde posso almoçar perto do meu destino?"}
+  ],
+  "ferramentas": [
+    {"nome": "Gemini", "url": "https://gemini.google.com"},
+    {"nome": "Apple CarPlay", "url": "https://www.apple.com/ios/carplay/"}
+  ],
+  "fonte": {"nome": "Blog da Google: Gemini no Apple CarPlay", "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/"},
+  "instagram_url": ""
+}
