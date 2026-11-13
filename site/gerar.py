@@ -204,7 +204,7 @@ def gerar(saida, agora):
     if not pubs:
         filtros = ""
     destaques = f"""<div class="destaques">
-  <a class="destaque" href="prompts.html"><div class="num grad">{n_prompts}</div><h3>Prompts por setor</h3><p>Marketing, vendas, finanças, RH, atendimento e mais. Prontos a copiar.</p><span class="ir">Ver prompts →</span></a>
+  <a class="destaque" href="prompts.html"><div class="num grad">{n_prompts}</div><h3>Prompts por setor</h3><p>Trabalho, viagens, compras, tecnologia, pesquisa e dia a dia. Prontos a copiar.</p><span class="ir">Ver prompts →</span></a>
   <a class="destaque" href="skills.html"><div class="num grad">{len(skills)}</div><h3>Skills prontas</h3><p>Instruções que transformam o ChatGPT, o Claude ou o Gemini num assistente teu.</p><span class="ir">Ver skills →</span></a>
   <a class="destaque" href="ferramentas.html"><div class="num grad">{len(ferr["ferramentas"])}</div><h3>Ferramentas de IA</h3><p>As que usamos nos Reels, com o que fazem e se têm plano gratuito.</p><span class="ir">Ver ferramentas →</span></a>
 </div>"""
@@ -240,7 +240,7 @@ def gerar(saida, agora):
 <input class="pesquisa" type="search" placeholder="Pesquisar prompts (ex.: email, Excel, Instagram)" aria-label="Pesquisar prompts">
 <div class="filtros">{chips}</div></section>{blocos}"""
     pagina(modelo, saida, "prompts.html", f"{n_prompts} prompts de IA por setor | IA SEM LIMITES",
-           "Prompts de IA prontos a copiar para marketing, vendas, conteúdo digital, finanças, recursos humanos, atendimento, gestão, estudo, restauração e imobiliário.",
+           "Prompts de IA prontos a copiar para marketing, vendas, conteúdo digital, finanças, recursos humanos, atendimento, gestão, estudo, restauração, imobiliário, pesquisa, viagens, tecnologia, compras e dia a dia.",
            cabecalho('Prompts <span class="grad">por setor</span>', "Para o teu trabalho e o teu dia a dia. Novos prompts todas as semanas."),
            conteudo, agora)
 
