@@ -124,6 +124,56 @@
      "titulo": "Transformar um Reel num carrossel",
      "texto": "Tenho este guião de Reel: [cola o guião]. Transforma-o num carrossel de 7 slides para o Instagram: slide 1 com gancho forte, slides 2 a 6 com uma ideia cada (máx. 20 palavras), slide 7 com pedido de ação. Sugere também o texto da descrição.",
      "adicionado": "2026-11-11"
+    },
+    {
+     "titulo": "Matriz de ideias de conteúdo",
+     "texto": "O meu tema é [tema] e o meu público é [público]. Cria uma tabela que cruze as necessidades do público com ângulos diferentes: explicar, mostrar, comparar, erro comum, caso real, mito, passo a passo e aplicação prática. Sem ideias repetidas.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Encontrar a história",
+     "texto": "Tenho este material para uma história: [cola o material]. Identifica o conflito central, os momentos de viragem, os pormenores mais fortes e a evolução emocional. Depois sugere uma estrutura sem mudar os factos.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Estrutura de um vídeo",
+     "texto": "Quero fazer um vídeo de [duração] minutos sobre [tema] para [público]. Faz a estrutura com o que a pessoa deve perceber ou sentir em cada parte: abertura, secções principais, ideias de imagem, transições e fecho.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Briefing de design",
+     "texto": "Faz um briefing visual para [projeto]: mensagem principal, reação que quero do público, o que deve chamar a atenção primeiro, onde fica o elemento principal, elementos de apoio, estilo de letra e o que pode distrair da mensagem.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Rever um guião",
+     "texto": "Revê este guião: [cola o guião]. Procura ritmo lento, repetições, partes confusas, transições fracas, contexto em falta e momentos em que o público se pode aborrecer. Dá sugestões concretas e explica o porquê de cada uma.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Planear uma série",
+     "texto": "Quero fazer uma série de [número] conteúdos sobre [tema]. Planeia-a para que cada episódio tenha um objetivo próprio, trate um aspeto diferente e ajude a perceber o tema no todo. Nada de repetir a mesma lição.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Criatividade com limites",
+     "texto": "Tenho de criar [projeto] com estas limitações: [orçamento, tempo, meios]. Dá-me várias direções criativas que funcionem mesmo dentro destes limites. Para cada uma: ideia central, o que é preciso e o maior desafio.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Da ideia à produção",
+     "texto": "Transforma esta ideia num plano de produção: [ideia]. Inclui objetivo, público, mensagem, o que tem de ser entregue, materiais necessários, ordem de trabalho, requisitos técnicos, controlo de qualidade e quando está pronto. Assinala o que ainda precisa de ser esclarecido.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Conhecer o meu público a fundo",
+     "texto": "Estou a criar [conteúdo, produto ou projeto] para [público]. Analisa esse público: objetivos, frustrações, perguntas, objeções, motivações, o que já sabe e o que quer alcançar. Depois diz onde estão as melhores oportunidades de conteúdo.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Uma ideia, vários formatos",
+     "texto": "Pega neste conteúdo: [cola o conteúdo]. Identifica as ideias mais fortes e adapta cada uma a formatos diferentes (Reel, carrossel, newsletter, publicação no LinkedIn…). Não te limites a encurtar: adapta a ideia a cada formato.",
+     "adicionado": "2026-11-13"
     }
    ]
   },
@@ -393,6 +443,291 @@
      "titulo": "Descrição da zona para compradores",
      "texto": "Escreve um texto curto sobre a zona de [bairro/cidade] para um anúncio de casa. Fala de transportes, escolas, comércio e ambiente, só com a informação que te dou: [cola os dados]. Tom: honesto e simpático, sem exageros. Máx. 120 palavras.",
      "adicionado": "2026-11-11"
+    }
+   ]
+  },
+  {
+   "id": "pesquisa",
+   "nome": "Pesquisa e informação",
+   "icone": "🔎",
+   "prompts": [
+    {
+     "titulo": "Pôr-me a par de um tema",
+     "texto": "Já sei o básico sobre [tema]. Dá-me um ponto de situação útil: as novidades mais importantes, os conceitos-chave, 2 ou 3 exemplos concretos e o que ainda não está claro ou é discutido. Organiza tudo para eu perceber depressa o que interessa mais.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Isto é mesmo verdade?",
+     "texto": "Analisa esta afirmação: \"[afirmação]\". Divide-a nas ideias mais pequenas de que depende, diz quais precisam de provas e que informação a tornaria mais forte ou mais fraca. Separa bem o que são factos do que são suposições.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Mapa de pesquisa",
+     "texto": "Vou estudar [tema]. Faz-me um mapa com as grandes áreas a investigar, as perguntas importantes dentro de cada uma e como se ligam entre si. Assinala as perguntas a responder primeiro e as que podem ficar para depois.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Tabela de factos e dúvidas",
+     "texto": "Analisa a informação abaixo sobre [tema] e põe-na numa tabela com: afirmação, o que a sustenta, possível limitação, grau de confiança e o que devo confirmar. Não trates opiniões como factos.\n\n[cola a informação]",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "O que falta para perceber isto",
+     "texto": "Lê esta informação sobre [tema] e diz-me que contexto falta para alguém a perceber bem: datas, definições, comparações, antecedentes ou condições que mudem a leitura.\n\n[cola o texto]",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Comparar fontes",
+     "texto": "Tenho estas fontes sobre [tema]: [lista ou cola as fontes]. Compara o que cada uma cobre, onde concordam e discordam, para que serve cada uma e o que continua a faltar. Uma discordância não quer dizer que uma delas esteja errada.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Perguntas que não fiz",
+     "texto": "Estou a investigar [tema] e já sei isto: [o que sabes]. Com base nisso, dá-me 12 perguntas de seguimento que possam revelar pormenores úteis, pôr à prova o que dou por certo ou mostrar algo que ainda não considerei.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Cronologia sem inventar",
+     "texto": "Faz uma cronologia de [tema] com a informação abaixo. Para cada momento: data ou período, o que aconteceu, porque importa e se há dúvidas sobre a data. Se faltar uma data, diz que falta. Não inventes.\n\n[cola a informação]",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Causa ou coincidência?",
+     "texto": "Analisa estes factos sobre [tema]: [factos]. Mostra as relações entre eles (causa e efeito, coincidências, dependências ou contrastes) e separa o que está confirmado do que é só uma interpretação razoável.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Resumo de pesquisa arrumado",
+     "texto": "Transforma o material abaixo num resumo de pesquisa: principais conclusões, as provas mais fortes, os pontos em que há discordância, o que isto muda na prática e o que fica por responder. Termina com as 5 pistas que mais vale a pena seguir.\n\n[cola o material]",
+     "adicionado": "2026-11-13"
+    }
+   ]
+  },
+  {
+   "id": "dinheiro-compras",
+   "nome": "Dinheiro e compras",
+   "icone": "🛒",
+   "prompts": [
+    {
+     "titulo": "Quanto custa mesmo",
+     "texto": "Estou a pensar comprar [produto ou serviço]. Calcula quanto me vai custar ao todo em [período]: preço inicial, mensalidades, manutenção, atualizações, taxas e outras despesas previsíveis. Separa os custos certos das estimativas.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "O que preciso antes de comprar",
+     "texto": "Preciso de comprar algo para [para quê]. Transforma a minha situação numa lista de requisitos: o que é obrigatório, o que seria bom ter, compatibilidades, orçamento máximo e o que me faz desistir. No fim, dá-me perguntas para comparar produtos.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Subscrições a mais",
+     "texto": "Estas são as subscrições e serviços que pago: [lista com preços]. Mostra onde há funções repetidas, coisas que pago e não uso e serviços que resolvem o mesmo problema. Apresenta o que encontraste sem decidir por mim o que cancelar.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Para onde vai o meu dinheiro",
+     "texto": "Analisa estas despesas: [cola os movimentos ou valores]. Agrupa-as em categorias que façam sentido, mostra o que se repete todos os meses, assinala mudanças fora do normal e calcula o peso de cada categoria no total, se houver dados suficientes.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Três cenários para o mês",
+     "texto": "Tenho [valor] € disponíveis e estas despesas previstas: [despesas]. Cria três cenários realistas, do mais apertado ao mais folgado. Mostra as contas de cada um e o que ganho ou abdico em cada cenário.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Custos escondidos",
+     "texto": "Antes de gastar dinheiro em [compra ou projeto], mostra-me os custos que não aparecem no preço inicial. Agrupa-os em: à cabeça, recorrentes, só em certas situações, manutenção e o que deixo de poder fazer com esse dinheiro. Assinala o que devo confirmar antes de avançar.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Plano para poupar",
+     "texto": "Quero juntar [valor] € em [prazo]. Mostra vários planos realistas: por semana, por mês ou com entregas irregulares. Diz quanto tenho de pôr de lado em cada um e o que acontece à meta se falhar uma ou duas vezes.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Vale mesmo a pena?",
+     "texto": "Estou a pensar em [produto ou serviço], sobretudo para [para quê]. Separa as vantagens que vou usar muitas vezes das que quase nunca vou usar e diz-me em que casos uma alternativa mais barata faria o mesmo.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Arrumar as contas",
+     "texto": "Organiza estes dados financeiros: [informação]. Separa custos fixos, variáveis, pontuais, compromissos mensais, dinheiro disponível e pagamentos que aí vêm. Diz-me que informação falta para ver o quadro completo.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Tabela para comparar opções",
+     "texto": "Estou a comparar [opções]. Faz uma tabela com preço, o que inclui, despesas mensais, limitações, durabilidade (quando fizer sentido) e custos extra. Assinala o que devo confirmar porque pode mudar a decisão.",
+     "adicionado": "2026-11-13"
+    }
+   ]
+  },
+  {
+   "id": "viagens",
+   "nome": "Viagens",
+   "icone": "✈️",
+   "prompts": [
+    {
+     "titulo": "Viagem equilibrada",
+     "texto": "Vou a [destino] durante [número] dias com cerca de [orçamento] €. Organiza a viagem com visitas, comida, experiências locais, deslocações, descanso e tempo livre. Não encha cada hora: deixa margem para imprevistos.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Onde ficar",
+     "texto": "Estou a escolher onde ficar em [destino]. Compara as principais zonas: ambiente, acesso às atrações, transportes, onde comer, comodidade e pontos fracos. Diz para que tipo de viajante serve cada zona.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Roteiro por zonas",
+     "texto": "Estes são os sítios que quero visitar: [lista]. Agrupa-os em percursos diários de acordo com a localização e o tempo que cada visita costuma levar. Avisa se algum dia ficar demasiado ambicioso.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Orçamento da viagem",
+     "texto": "Faz um orçamento realista para a minha viagem a [destino]. Os pormenores são: [datas, pessoas, tipo de alojamento]. Divide em transporte, alojamento, comida, atividades, deslocações no local, compras e uma margem para imprevistos. Assinala o que é estimativa.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Mala por situação",
+     "texto": "Vou a [destino] durante [duração] em [época do ano] e vou fazer [atividades]. Faz a lista da mala organizada por situação (viagem, praia, jantar, chuva…) em vez de uma lista solta. Separa o essencial do opcional.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Plano B para a viagem",
+     "texto": "A minha viagem inclui estas atividades: [lista]. Dá-me alternativas para chuva, sítios fechados, atrasos ou demasiada gente, mantendo os mesmos interesses e mais ou menos o mesmo horário.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Rever o meu roteiro",
+     "texto": "Revê este plano de viagem: [cola o plano]. Procura problemas de horários, deslocações a mais, coisas que esqueci de preparar, suposições pouco realistas e pormenores práticos. Sugere ajustes concretos sem refazer a viagem toda.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "O que saber antes de ir",
+     "texto": "Antes de ir a [destino], faz-me uma lista do que devo pesquisar sobre transportes, costumes, clima, pagamentos, internet, horários, segurança e reservas. Põe primeiro o que pode estragar a viagem se eu não souber.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Escolher entre dois planos",
+     "texto": "Tenho estes planos de viagem: [plano A] e [plano B]. Compara-os em cansaço, ritmo, custo aproximado, variedade, tempo em deslocações e flexibilidade. Mostra o que ganho e perco em cada um, em vez de os descrever.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Viagem à medida dos meus gostos",
+     "texto": "Prepara [número] dias em [destino] à volta destes interesses: [interesses]. Equilibra os pontos mais conhecidos com experiências locais, comida, passeios e tempo para descansar. Explica para que serve cada parte do roteiro.",
+     "adicionado": "2026-11-13"
+    }
+   ]
+  },
+  {
+   "id": "tecnologia",
+   "nome": "Tecnologia e vida digital",
+   "icone": "💻",
+   "prompts": [
+    {
+     "titulo": "Apps a mais",
+     "texto": "Estas são as apps e serviços que uso: [lista]. Diz para que me serve cada um, onde há funções repetidas e o que ainda me falta. Só sugiras trocar alguma se houver uma razão clara.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Escolher uma ferramenta",
+     "texto": "Preciso de uma ferramenta para [para quê]. Faz uma grelha de avaliação com: funções essenciais, funções úteis mas secundárias, compatibilidade, facilidade de uso, privacidade e limitações. Depois transforma-a numa checklist simples para comparar opções.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Arrumar o computador",
+     "texto": "Os meus ficheiros estão assim: [descreve]. Propõe uma estrutura simples de pastas para projetos, recursos e arquivo, com regras para dar nomes aos ficheiros e manter tudo arrumado ao longo do tempo.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Email sob controlo",
+     "texto": "Recebo sobretudo estes tipos de email: [exemplos]. Cria um sistema prático para separar urgente, a tratar, para consulta, à espera de resposta e sem interesse, com regras simples para decidir onde vai cada email novo.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "O que posso automatizar",
+     "texto": "Estas são tarefas que repito muitas vezes: [lista]. Diz quais dá para automatizar, quais devem continuar manuais e quais podem ser meio automáticas com revisão minha. Para cada automação, diz o que a faz arrancar e o que deve produzir.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Resolver um problema técnico",
+     "texto": "Tenho este problema: [descreve o problema e o aparelho]. Faz-me só as perguntas mais úteis para chegar à causa, agrupadas pelo que cada resposta ajuda a perceber. Uma pergunta de cada vez.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Configurar um aparelho novo",
+     "texto": "Vou configurar [aparelho ou programa] para [para quê]. Faz uma checklist com o essencial, segurança, personalização, testes, cópias de segurança e manutenção. Separa o que é obrigatório do que é opcional.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Desenhar o meu processo",
+     "texto": "Hoje faço [tarefa] assim: [passo a passo]. Transforma isto num fluxo claro: o que entra, os passos, as ferramentas, as decisões, o resultado e onde pode correr mal. Depois sugere 3 melhorias concretas.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Limpar uma lista ou tabela",
+     "texto": "Tenho esta lista ou tabela: [cola os dados]. Assinala duplicados, valores em falta, formatos diferentes, entradas estranhas e campos pouco claros. Explica a regra que usaste em cada caso e não alteres nada sem me dizer.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Aprender uma ferramenta a fazer",
+     "texto": "Quero ficar à vontade com [ferramenta] para [para quê]. Em vez de uma lista de funções, dá-me uma sequência de tarefas práticas, das mais fáceis às mais avançadas. Em cada uma, diz o que aprendo ao fazê-la.",
+     "adicionado": "2026-11-13"
+    }
+   ]
+  },
+  {
+   "id": "dia-a-dia",
+   "nome": "Dia a dia e casa",
+   "icone": "🏡",
+   "prompts": [
+    {
+     "titulo": "Preparar uma conversa difícil",
+     "texto": "Tenho de falar com [pessoa] sobre [situação]. Imagina três formas realistas de a conversa correr, consoante a reação da outra pessoa. Em cada uma, dá-me respostas calmas e claras sem perder o meu objetivo.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Organizar um evento",
+     "texto": "Vou organizar [evento] para cerca de [número] pessoas. Monta um plano com preparação, pessoas, material, convites, horários, logística, plano B e o que fazer depois. Assinala as tarefas que dependem de outras.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Obras em casa sem surpresas",
+     "texto": "Quero fazer [obra ou projeto em casa]. Organiza o trabalho em preparação, materiais, execução, verificação, limpeza e acabamentos. Diz o que tenho de medir, comprar, confirmar ou preparar antes de começar.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Ideias de presente",
+     "texto": "Preciso de um presente para [pessoa] que [gostos e pormenores], até [valor] €. Dá-me várias direções: útil, pessoal, uma experiência, ligado a um passatempo ou prático. Diz que informação me ajudaria a escolher melhor.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Horário com margem",
+     "texto": "Faz um horário para [evento ou atividade] com cerca de [duração]. Inclui montagem, transições, momentos principais, pausas, margem para atrasos e arrumação. O plano não pode depender de tudo correr à hora certa.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Papelada arrumada",
+     "texto": "Tenho de gerir estes papéis e informações pessoais: [lista, sem dados sensíveis]. Propõe um sistema simples para encontrar, atualizar, arquivar e proteger tudo. Diz o que vale a pena guardar e o que não deve ficar duplicado.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "10 perguntas antes de começar",
+     "texto": "Vou começar [atividade, projeto ou compra]. Dá-me as 10 perguntas que podem revelar um problema, um custo, uma dependência ou uma suposição errada antes de avançar. Põe primeiro as que podem mesmo mudar a minha decisão.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Rotina que não aguento",
+     "texto": "A minha rotina de [rotina] é assim: [descreve]. Mostra onde se torna difícil de manter, o que provoca isso e que pequenas mudanças resolvem cada problema sem mudar a minha vida toda.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Despachar tarefas soltas",
+     "texto": "Estas são as tarefas soltas que tenho na cabeça: [lista]. Agrupa-as por tipo, esforço, prazo, dependências e se precisam de outra pessoa. Depois dá-me uma ordem para as despachar sem saltar de um assunto para outro.",
+     "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Refeições sem complicar",
+     "texto": "Preciso de refeições para [número] dias. Estas são as minhas preferências, restrições, o que tenho em casa e o orçamento: [pormenores]. Faz um plano variado e simples, aproveita os mesmos ingredientes em várias refeições e diz-me o que ainda tenho de comprar.",
+     "adicionado": "2026-11-13"
     }
    ]
   }
