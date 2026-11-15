@@ -1,0 +1,23 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Faz comigo, Ep. 3: mini-apps a conversar",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-11-16T12:30",
+  "capa": "capa-faz-comigo-ep3.jpg",
+  "resumo": "Cria uma mini-app a conversar com a IA: artefactos no Claude (grátis) ou Canvas no Gemini.",
+  "pontos": [
+    "🧡 Claude: artefactos em todos os planos, incluindo o grátis",
+    "💙 Gemini: \"+\" › Canvas (18+ e com sessão iniciada)",
+    "🔗 Gemini: partilha com um link",
+    "💡 Uma mudança de cada vez"
+  ],
+  "prompts": [
+    {"titulo": "App para dividir a conta", "texto": "Cria uma app simples para dividir a conta do jantar entre amigos.\nCampos: total, número de pessoas e gorjeta em %.\nMostra em destaque quanto paga cada um.\nBotões grandes, fácil de usar no telemóvel, tudo em português de Portugal."}
+  ],
+  "ferramentas": [
+    {"nome": "Claude", "url": "https://claude.ai"},
+    {"nome": "Gemini", "url": "https://gemini.google.com"}
+  ],
+  "fonte": {"nome": "Ajuda do Claude: o que são artefactos", "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them"},
+  "instagram_url": ""
+}
