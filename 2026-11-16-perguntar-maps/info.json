@@ -1,0 +1,25 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "O Perguntar ao Maps chegou a Portugal",
+  "tipo": "Novidade",
+  "publicar_em": "2026-11-16T20:30",
+  "capa": "capa-perguntar-maps.jpg",
+  "resumo": "O Perguntar ao Maps (Ask Maps) chegou a Portugal: o Google Maps cria itinerários com IA, grátis.",
+  "pontos": [
+    "🧭 Itinerários dia a dia no mapa",
+    "⭐ Pesquisa nas tuas listas",
+    "📤 Partilha o plano",
+    "⏳ A chegar aos poucos"
+  ],
+  "prompts": [
+    {"titulo": "Fim de semana na serra", "texto": "Planeia um fim de semana na Serra da Estrela com caminhadas"},
+    {"titulo": "Nas tuas listas", "texto": "Dos sítios nas minhas listas, qual está aberto agora?"},
+    {"titulo": "Dia com crianças", "texto": "Um dia em Lisboa com crianças, sem pressas"}
+  ],
+  "ferramentas": [
+    {"nome": "Google Maps", "url": "https://maps.google.com"},
+    {"nome": "Gemini", "url": "https://gemini.google.com"}
+  ],
+  "fonte": {"nome": "Blog da Google: Ask Maps", "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/"},
+  "instagram_url": ""
+}
