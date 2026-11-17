@@ -1,0 +1,24 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Faz comigo, Ep. 4: a IA a lembrar-se de ti",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-11-17T12:30",
+  "capa": "capa-faz-comigo-ep4.jpg",
+  "resumo": "Liga a memória no ChatGPT ou no Claude (grátis) e a IA passa a lembrar-se de ti entre conversas.",
+  "pontos": [
+    "💚 ChatGPT: Definições › Personalização › Memória",
+    "🧡 Claude: já vem ligada no plano grátis",
+    "💬 \"Lembra-te: …\" para guardar, \"Esquece que…\" para apagar",
+    "⚠️ Nada de dados sensíveis"
+  ],
+  "prompts": [
+    {"titulo": "Guardar na memória", "texto": "Lembra-te: sou vegetariano e tenho 2 filhos pequenos."},
+    {"titulo": "Apagar da memória", "texto": "Esquece que …"}
+  ],
+  "ferramentas": [
+    {"nome": "ChatGPT", "url": "https://chatgpt.com"},
+    {"nome": "Claude", "url": "https://claude.ai"}
+  ],
+  "fonte": {"nome": "Ajuda da OpenAI: memória no ChatGPT", "url": "https://help.openai.com/en/articles/8590148-memory-in-chatgpt"},
+  "instagram_url": ""
+}
