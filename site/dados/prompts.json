@@ -40,6 +40,11 @@
      "titulo": "Ideias para o Google Meu Negócio",
      "texto": "Tenho um negócio de [tipo de negócio] em [localidade]. Dá-me 8 ideias de publicações para o perfil do Google, cada uma com título, texto de 2 frases e o tipo de foto a usar. Mistura novidades, ofertas, bastidores e dicas para clientes.",
      "adicionado": "2026-11-11"
+    },
+    {
+     "titulo": "Pedir testemunhos a clientes",
+     "texto": "Quero pedir testemunhos a clientes satisfeitos de [negócio]. Escreve uma mensagem curta para WhatsApp e outra para email que peçam a opinião sem pressão, com 3 perguntas simples que ajudem o cliente a escrever (o problema que tinha, o que mudou, a quem recomendaria) e um pedido de autorização para publicar.",
+     "adicionado": "2026-11-18"
     }
    ]
   },
@@ -253,6 +258,11 @@
      "titulo": "Comunicar uma mudança à equipa",
      "texto": "Tenho de comunicar à equipa esta mudança: [descreve a mudança]. Escreve uma mensagem clara e humana que explique o quê, porquê, quando começa e o que muda para cada pessoa. Junta as 5 perguntas que a equipa provavelmente vai fazer, com respostas curtas.",
      "adicionado": "2026-11-04"
+    },
+    {
+     "titulo": "Escala de turnos justa",
+     "texto": "Tenho de organizar os turnos de [n.º] pessoas para [período]. Regras: [horário de abertura, folgas obrigatórias, preferências de cada pessoa]. Propõe uma escala em tabela que distribua fins de semana e feriados de forma equilibrada e assinala os pontos onde as regras entram em conflito, para eu decidir.",
+     "adicionado": "2026-11-18"
     }
    ]
   },
@@ -290,6 +300,11 @@
      "titulo": "Pedir desculpa por um atraso",
      "texto": "Um cliente está à espera de [encomenda/serviço] com [X dias] de atraso por causa de [motivo]. Escreve uma mensagem de desculpa honesta, sem desculpas esfarrapadas, com a nova data, o que vamos fazer para compensar ([compensação]) e um contacto direto. Máx. 100 palavras.",
      "adicionado": "2026-11-04"
+    },
+    {
+     "titulo": "Responder a um pedido de reembolso",
+     "texto": "Um cliente pede reembolso por [motivo]. A nossa política é [resume a política]. Escreve uma resposta educada e clara que explique o que podemos fazer, os passos seguintes e o prazo. Se o pedido não cumprir a política, propõe uma alternativa razoável sem soar a recusa seca.",
+     "adicionado": "2026-11-18"
     }
    ]
   },
@@ -332,6 +347,11 @@
      "titulo": "Checklist de abertura e fecho",
      "texto": "Cria uma checklist de abertura e outra de fecho para [tipo de negócio], com as tarefas por ordem, quem faz cada uma e quanto tempo demora. No fim, assinala as 3 tarefas que nunca podem falhar.",
      "adicionado": "2026-11-11"
+    },
+    {
+     "titulo": "Preparar uma reunião que acaba a horas",
+     "texto": "Vou ter uma reunião de [duração] sobre [tema] com [quem]. Cria uma agenda com tempos para cada ponto, o objetivo de cada um (informar, discutir ou decidir), o que cada pessoa deve trazer preparado e uma lista de decisões a tomar antes de terminar.",
+     "adicionado": "2026-11-18"
     }
    ]
   },
@@ -369,6 +389,11 @@
      "titulo": "Testa-me antes do exame",
      "texto": "Vou ter exame de [disciplina] sobre [matéria]. Faz-me 10 perguntas, uma de cada vez, das mais fáceis às mais difíceis. Espera pela minha resposta, corrige-a, explica o erro em 2 frases e, no fim, diz-me os 3 temas que tenho de rever.",
      "adicionado": "2026-11-04"
+    },
+    {
+     "titulo": "Mapa mental de um capítulo",
+     "texto": "Vou colar um capítulo sobre [tema]. Organiza-o num mapa mental em texto: ideia central, 4 a 6 ramos principais e 2 a 3 pontos por ramo, com palavras-chave curtas. No fim, indica as 3 ligações entre ramos que mais costumam sair em exame. [cola o texto]",
+     "adicionado": "2026-11-18"
     }
    ]
   },
@@ -406,6 +431,11 @@
      "titulo": "Menu do dia em 3 línguas",
      "texto": "Tenho este menu do dia: [cola os pratos e preços]. Escreve-o de forma apetitosa em português, inglês e francês, com uma linha curta por prato. Assinala os pratos vegetarianos e os alergénios mais comuns que eu indicar: [alergénios]. Não inventes ingredientes.",
      "adicionado": "2026-11-11"
+    },
+    {
+     "titulo": "Responder a pedidos de grupos",
+     "texto": "Recebi um pedido de grupo: [n.º de pessoas, data, tipo de evento, orçamento]. Escreve uma resposta com 2 propostas de menu ou pacote a preços diferentes, o que está incluído, condições de reserva e sinal, e uma pergunta final para fechar os pormenores.",
+     "adicionado": "2026-11-18"
     }
    ]
   },
@@ -443,6 +473,11 @@
      "titulo": "Descrição da zona para compradores",
      "texto": "Escreve um texto curto sobre a zona de [bairro/cidade] para um anúncio de casa. Fala de transportes, escolas, comércio e ambiente, só com a informação que te dou: [cola os dados]. Tom: honesto e simpático, sem exageros. Máx. 120 palavras.",
      "adicionado": "2026-11-11"
+    },
+    {
+     "titulo": "Explicar os custos de comprar casa",
+     "texto": "Um cliente vai comprar uma casa de [valor] em [concelho] com crédito de [valor]. Faz uma lista dos custos além do preço que ele deve prever (impostos, escritura, registos, avaliação bancária, seguros, comissões) e explica cada um numa frase simples. Não inventes valores: indica onde confirmar cada um e marca o que depende do banco.",
+     "adicionado": "2026-11-18"
     }
    ]
   },
