@@ -1,0 +1,22 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "O ChatGPT escreve enquanto falas",
+  "tipo": "Novidade",
+  "publicar_em": "2026-11-19T20:30",
+  "capa": "capa-ditado-chatgpt.jpg",
+  "resumo": "O ChatGPT passou a escrever enquanto falas (Ditado em direto), em todos os planos, incluindo o grátis.",
+  "pontos": [
+    "⚡ Texto em tempo real",
+    "⏱️ Sem limite de 10 minutos",
+    "💸 Todos os planos, incluindo o grátis",
+    "📱 iPhone, Android, web e computador"
+  ],
+  "prompts": [
+    {"titulo": "Experimenta a ditar", "texto": "Escreve um email ao senhorio a pedir que arranje o esquentador esta semana."}
+  ],
+  "ferramentas": [
+    {"nome": "ChatGPT", "url": "https://chatgpt.com"}
+  ],
+  "fonte": {"nome": "Notas de versão do ChatGPT (OpenAI)", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"},
+  "instagram_url": ""
+}
