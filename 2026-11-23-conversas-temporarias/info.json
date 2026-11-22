@@ -1,0 +1,22 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Vais pesquisar um presente-surpresa? Faz isto antes",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-11-23T12:30",
+  "capa": "capa-conversas-temporarias.jpg",
+  "resumo": "O Modo IA da Pesquisa Google tem conversas Temporárias: não ficam no histórico nem mudam as recomendações.",
+  "pontos": [
+    "🕶️ Ícone no canto superior direito do Modo IA",
+    "🚫 Sem histórico nem personalização",
+    "📱 No navegador do computador e do telemóvel",
+    "💸 Grátis, a chegar aos poucos"
+  ],
+  "prompts": [
+    {"titulo": "Pesquisa de presente em segredo", "texto": "Presente para a minha mãe, que adora jardinagem, até 40 €"}
+  ],
+  "ferramentas": [
+    {"nome": "Modo IA da Pesquisa Google", "url": "https://www.google.com/search?udm=50"}
+  ],
+  "fonte": {"nome": "Google Portugal: conversas Temporárias no Modo IA", "url": "https://blog.google/intl/pt-pt/produtos/explore-obtenha-respostas/as-conversas-temporarias-ja-estao-disponiveis-no-modo-ia-na-pesquisa/"},
+  "instagram_url": ""
+}
