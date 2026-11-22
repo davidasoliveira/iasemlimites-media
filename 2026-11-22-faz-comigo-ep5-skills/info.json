@@ -1,0 +1,23 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Faz comigo, Ep. 5: ensina-lhe um processo teu",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-11-22T20:30",
+  "capa": "capa-faz-comigo-ep5.jpg",
+  "resumo": "Os Gems passaram a Skills: ensina ao Gemini um processo teu uma vez e usa-o em qualquer chat com /.",
+  "pontos": [
+    "🧩 Personalizar › Skills › Criar › Criar manualmente",
+    "⚡ Usa com / e o nome da skill",
+    "💎 Os Gems já foram convertidos; ficheiros até 17 dez.",
+    "👤 Conta Google pessoal, 18+"
+  ],
+  "prompts": [
+    {"titulo": "Instruções da skill lista-compras", "texto": "Dou-te as refeições da semana. Faz a lista de compras para 4 pessoas, agrupada por secção do supermercado (peixaria, talho, legumes, mercearia, laticínios), com quantidades, em português de Portugal. No fim, pergunta se já tenho algum ingrediente em casa."},
+    {"titulo": "Usar a skill num chat", "texto": "/lista-compras seg: bacalhau à brás · ter: sopa e omelete"}
+  ],
+  "ferramentas": [
+    {"nome": "Gemini", "url": "https://gemini.google.com"}
+  ],
+  "fonte": {"nome": "Ajuda do Gemini: dos Gems às skills", "url": "https://support.google.com/gemini/answer/18560919?hl=en"},
+  "instagram_url": ""
+}
