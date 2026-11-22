@@ -15,7 +15,7 @@
     {"titulo": "Pesquisa de presente em segredo", "texto": "Presente para a minha mãe, que adora jardinagem, até 40 €"}
   ],
   "ferramentas": [
-    {"nome": "Modo IA da Pesquisa Google", "url": "https://www.google.com/search?udm=50"}
+    {"nome": "Modo IA da Pesquisa Google", "url": "https://www.google.com"}
   ],
   "fonte": {"nome": "Google Portugal: conversas Temporárias no Modo IA", "url": "https://blog.google/intl/pt-pt/produtos/explore-obtenha-respostas/as-conversas-temporarias-ja-estao-disponiveis-no-modo-ia-na-pesquisa/"},
   "instagram_url": ""
