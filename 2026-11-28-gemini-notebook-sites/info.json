@@ -1,0 +1,31 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Transforma os teus apontamentos num site para estudar",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-11-28T12:30",
+  "capa": "capa-gemini-notebook-sites.jpg",
+  "resumo": "No Gemini Notebook, escreve 'faz-me um site' e transforma os teus apontamentos num site para estudar, com linha do tempo e teste.",
+  "pontos": [
+    "📄 Junta as fontes num caderno",
+    "💬 Pede \"faz-me um site\"",
+    "🔗 Abre num separador e estuda",
+    "💡 Revê as datas: a IA pode errar"
+  ],
+  "prompts": [
+    {
+      "titulo": "Site para estudar",
+      "texto": "Faz-me um site para estudar [a matéria, ex.: o 25 de Abril] com base nas minhas fontes. Inclui uma linha do tempo com as datas principais, um resumo curto de cada parte e um teste de 5 perguntas com as respostas certas no fim. Escreve em português de Portugal."
+    }
+  ],
+  "ferramentas": [
+    {
+      "nome": "Gemini Notebook",
+      "url": "https://notebook.google.com/"
+    }
+  ],
+  "fonte": {
+    "nome": "Blog da Google: sites interativos no Gemini Notebook (16 nov. 2026)",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/"
+  },
+  "instagram_url": ""
+}
