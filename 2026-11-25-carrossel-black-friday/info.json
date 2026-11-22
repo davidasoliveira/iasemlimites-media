@@ -1,0 +1,52 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Black Friday: 5 prompts para não caíres em armadilhas",
+  "tipo": "Carrossel",
+  "publicar_em": "2026-11-25T20:00",
+  "capa": "slide-01.png",
+  "resumo": "5 prompts para usar a IA na Black Friday sem cair em armadilhas.",
+  "pontos": [
+    "🔍 Compara preços",
+    "📉 O desconto é real?",
+    "📜 As letras pequenas",
+    "🧭 Preciso mesmo?",
+    "🛡️ Isto é burla?"
+  ],
+  "prompts": [
+    {
+      "titulo": "🔍 Compara preços",
+      "texto": "Quero comprar [o produto]. Procura o preço em lojas online portuguesas e faz uma tabela com: loja, preço, portes e prazo de entrega. Põe o link de cada uma."
+    },
+    {
+      "titulo": "📉 O desconto é real?",
+      "texto": "Esta loja diz que [o produto] passou de [preço antigo] para [preço novo]. Procura noutras fontes se o preço esteve mais baixo nos últimos 30 dias. Diz-me o que encontraste e onde."
+    },
+    {
+      "titulo": "📜 As letras pequenas",
+      "texto": "Lê estas condições da loja: [cola o texto]. Explica-me em 5 pontos simples: prazo para devolver, quem paga o envio da devolução, garantia e custos escondidos."
+    },
+    {
+      "titulo": "🧭 Preciso mesmo?",
+      "texto": "Tenho [valor] para gastar na Black Friday. Faz-me 5 perguntas, uma de cada vez, sobre o que preciso mesmo. No fim, diz-me o que vale a pena comprar e o que posso deixar."
+    },
+    {
+      "titulo": "🛡️ Isto é burla?",
+      "texto": "Recebi este anúncio: [cola o texto ou o link]. Que sinais de burla vês (endereço estranho, preço bom demais, pagamento esquisito)? O que devo confirmar antes de pagar?"
+    }
+  ],
+  "ferramentas": [
+    {
+      "nome": "ChatGPT",
+      "url": "https://chatgpt.com"
+    },
+    {
+      "nome": "Gemini",
+      "url": "https://gemini.google.com"
+    }
+  ],
+  "fonte": {
+    "nome": "Decreto-Lei n.º 109-G/2021 (Diário da República)",
+    "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/109-g-2021-175744207"
+  },
+  "instagram_url": ""
+}

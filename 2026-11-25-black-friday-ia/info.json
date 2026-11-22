@@ -1,0 +1,35 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Antes de comprares na Black Friday, pede isto à IA",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-11-25T12:30",
+  "capa": "capa-black-friday.jpg",
+  "resumo": "Antes de comprares na Black Friday, pede à IA para comparar preços, testar o desconto e ler as condições.",
+  "pontos": [
+    "🔍 Compara preços em lojas portuguesas",
+    "📉 Desconto conta do preço mais baixo dos últimos 30 dias",
+    "📦 14 dias para desistir online",
+    "✅ Confirma sempre na loja"
+  ],
+  "prompts": [
+    {
+      "titulo": "Detetive de descontos",
+      "texto": "Quero comprar [o produto] a [preço]. Compara o preço noutras lojas portuguesas numa tabela (loja, preço, portes, entrega), vê se esteve mais baixo nos últimos 30 dias e resume a devolução e a garantia. Dá-me os links de tudo."
+    }
+  ],
+  "ferramentas": [
+    {
+      "nome": "ChatGPT",
+      "url": "https://chatgpt.com"
+    },
+    {
+      "nome": "Gemini",
+      "url": "https://gemini.google.com"
+    }
+  ],
+  "fonte": {
+    "nome": "Decreto-Lei n.º 109-G/2021 (Diário da República)",
+    "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/109-g-2021-175744207"
+  },
+  "instagram_url": ""
+}
