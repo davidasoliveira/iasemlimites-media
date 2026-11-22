@@ -1,0 +1,43 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Black Friday: antes de pagar, faz este teste",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-11-27T12:30",
+  "capa": "capa-black-friday-burla.jpg",
+  "resumo": "Antes de pagar na Black Friday, cola o SMS ou o anúncio numa IA e pergunta se é burla.",
+  "pontos": [
+    "🔗 Não cliques: escreve tu o endereço",
+    "💳 Paga só na loja oficial",
+    "🚨 Burla? Banco e queixa (PSP, GNR, PJ)",
+    "💡 A IA ajuda, não garante"
+  ],
+  "prompts": [
+    {
+      "titulo": "Isto é burla?",
+      "texto": "Recebi esta mensagem: [cola o texto]. Isto é burla? Diz-me que sinais de alerta vês (endereço, preço, pressa, forma de pagamento) e o que devo fazer a seguir."
+    }
+  ],
+  "ferramentas": [
+    {
+      "nome": "ChatGPT",
+      "url": "https://chatgpt.com"
+    },
+    {
+      "nome": "Gemini",
+      "url": "https://gemini.google.com"
+    },
+    {
+      "nome": "Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "nome": "Copilot",
+      "url": "https://copilot.microsoft.com"
+    }
+  ],
+  "fonte": {
+    "nome": "Polícia Judiciária: alerta de fraudes na Black Friday",
+    "url": "https://www.facebook.com/pjudiciaria.pt/posts/black-fridaycontagem-decrescente-para-uma-fraudedas-poucas-ofertas-que-certament/1192448073372451/"
+  },
+  "instagram_url": ""
+}
