@@ -1,0 +1,31 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Amigo secreto sem papelinhos: cria a app na Lovable",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-11-24T12:30",
+  "capa": "capa-lovable-amigo-secreto.jpg",
+  "resumo": "Cria uma app de amigo secreto para o Natal na Lovable, a conversar e no plano grátis.",
+  "pontos": [
+    "💬 Descreves a app em português",
+    "🎲 Sorteio sem papelinhos",
+    "🔗 Partilhas o link com a família",
+    "💸 5 créditos por dia, sem cartão"
+  ],
+  "prompts": [
+    {
+      "titulo": "App de amigo secreto",
+      "texto": "Cria uma app de amigo secreto para o Natal. Escrevo os nomes dos participantes e o valor máximo do presente. Carrego em Sortear e cada pessoa toca no seu nome para ver, em segredo, a quem dá o presente. Ninguém pode calhar a si próprio. Tema de Natal, botões grandes, fácil de usar no telemóvel, tudo em português de Portugal."
+    }
+  ],
+  "ferramentas": [
+    {
+      "nome": "Lovable",
+      "url": "https://lovable.dev"
+    }
+  ],
+  "fonte": {
+    "nome": "Lovable: preços e plano grátis",
+    "url": "https://lovable.dev/pricing"
+  },
+  "instagram_url": ""
+}
