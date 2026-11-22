@@ -1,0 +1,31 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Até sexta, põe a IA a vigiar as promoções",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-11-26T12:30",
+  "capa": "capa-gemini-agendadas.jpg",
+  "resumo": "Põe o Gemini a procurar promoções todos os dias e a avisar-te, com as ações agendadas.",
+  "pontos": [
+    "⏰ Pedido com hora e frequência",
+    "🔔 Aviso no telemóvel",
+    "🗂️ Geres em Agendadas (até 10)",
+    "👤 Conta pessoal e histórico ligado"
+  ],
+  "prompts": [
+    {
+      "titulo": "Vigiar promoções todos os dias",
+      "texto": "Todos os dias às 9h, até sexta-feira, procura promoções de [o produto] em lojas portuguesas e mostra os 3 melhores preços, com o link de cada loja."
+    }
+  ],
+  "ferramentas": [
+    {
+      "nome": "Gemini",
+      "url": "https://gemini.google.com"
+    }
+  ],
+  "fonte": {
+    "nome": "Ajuda do Gemini: ações agendadas",
+    "url": "https://support.google.com/gemini/answer/16316416?hl=en"
+  },
+  "instagram_url": ""
+}
