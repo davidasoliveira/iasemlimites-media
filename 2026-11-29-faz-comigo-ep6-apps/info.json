@@ -1,0 +1,35 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "Faz comigo, Ep. 6: liga a IA às tuas apps",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-11-29T12:30",
+  "capa": "capa-faz-comigo-ep6.jpg",
+  "resumo": "Ep. 6 do Do zero a mestre: liga a IA ao teu Gmail e ao Calendário e deixa de copiar e colar.",
+  "pontos": [
+    "🔌 No Gemini: escreve @ e escolhe a app",
+    "🗓️ Encontra o email e marca no Calendário",
+    "🧩 No Claude chama-se Conectores (MCP)",
+    "🛡️ Liga só o que precisas e vê as fontes"
+  ],
+  "prompts": [
+    {
+      "titulo": "Do Gmail para o Calendário",
+      "texto": "@Gmail Procura o email sobre [a reunião da escola] e diz-me a data, a hora e o local. Depois põe no meu Calendário."
+    }
+  ],
+  "ferramentas": [
+    {
+      "nome": "Gemini",
+      "url": "https://gemini.google.com"
+    },
+    {
+      "nome": "Claude",
+      "url": "https://claude.ai"
+    }
+  ],
+  "fonte": {
+    "nome": "Ajuda do Gemini: Apps ligadas",
+    "url": "https://support.google.com/gemini/answer/15229592?hl=en"
+  },
+  "instagram_url": ""
+}
