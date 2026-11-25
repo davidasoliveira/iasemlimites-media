@@ -87,6 +87,11 @@
      "titulo": "Reativar clientes antigos",
      "texto": "Escreve uma mensagem curta para clientes que não compram há mais de [X meses] em [negócio]. Tom próximo, sem pressão. Lembra o que gostavam, apresenta uma novidade ([novidade]) e termina com uma pergunta simples para responderem. Dá-me 3 versões: email, SMS e WhatsApp.",
      "adicionado": "2026-11-11"
+    },
+    {
+     "titulo": "Mensagem para um cliente indeciso",
+     "texto": "Um cliente pediu orçamento para [produto/serviço] há [dias] e ainda não respondeu. Escreve 2 versões de uma mensagem curta de seguimento (uma para WhatsApp, outra para email) que relembrem o valor da proposta, respondam à dúvida mais provável ([dúvida]) e terminem com uma pergunta simples de sim ou não. Sem pressão nem falsas urgências.",
+     "adicionado": "2026-11-25"
     }
    ]
   },
@@ -179,6 +184,11 @@
      "titulo": "Uma ideia, vários formatos",
      "texto": "Pega neste conteúdo: [cola o conteúdo]. Identifica as ideias mais fortes e adapta cada uma a formatos diferentes (Reel, carrossel, newsletter, publicação no LinkedIn…). Não te limites a encurtar: adapta a ideia a cada formato.",
      "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Série de 5 dicas num tema",
+     "texto": "Quero uma série de 5 publicações sobre [tema] para [público]. Para cada uma dá: título com gancho, a dica explicada em 3 frases simples, um exemplo do dia a dia em Portugal e uma pergunta para os comentários. Garante que cada publicação funciona sozinha mas que, juntas, levam a pessoa do básico ao avançado.",
+     "adicionado": "2026-11-25"
     }
    ]
   },
@@ -221,6 +231,11 @@
      "titulo": "Preparar a reunião com o contabilista",
      "texto": "Vou reunir com o meu contabilista sobre [tema: IRS, IVA, abrir atividade, etc.]. Faz-me uma lista das perguntas a fazer, dos documentos que devo levar e dos termos que preciso de perceber, explicados de forma simples. Não me dês conselhos fiscais definitivos.",
      "adicionado": "2026-11-11"
+    },
+    {
+     "titulo": "Previsão de tesouraria a 3 meses",
+     "texto": "Ajuda-me a prever a tesouraria do meu negócio nos próximos 3 meses. Entradas previstas: [lista]. Saídas fixas: [lista]. Saídas variáveis: [lista]. Monta uma tabela mês a mês com o saldo no fim de cada mês, assinala o mês mais apertado e sugere 3 ações concretas para o aliviar. Não inventes valores: usa só os que te dei e pergunta o que faltar.",
+     "adicionado": "2026-11-25"
     }
    ]
   },
@@ -535,6 +550,11 @@
      "titulo": "Resumo de pesquisa arrumado",
      "texto": "Transforma o material abaixo num resumo de pesquisa: principais conclusões, as provas mais fortes, os pontos em que há discordância, o que isto muda na prática e o que fica por responder. Termina com as 5 pistas que mais vale a pena seguir.\n\n[cola o material]",
      "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Separar opinião de facto",
+     "texto": "Vou colar um texto sobre [tema]. Divide-o numa tabela com 3 colunas: afirmações que são factos verificáveis, afirmações que são opinião ou interpretação, e afirmações que precisam de fonte. Para cada facto, diz que tipo de fonte o confirmaria. Não acrescentes informação que não esteja no texto. [cola o texto]",
+     "adicionado": "2026-11-25"
     }
    ]
   },
@@ -649,6 +669,11 @@
      "titulo": "Viagem à medida dos meus gostos",
      "texto": "Prepara [número] dias em [destino] à volta destes interesses: [interesses]. Equilibra os pontos mais conhecidos com experiências locais, comida, passeios e tempo para descansar. Explica para que serve cada parte do roteiro.",
      "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Viagem com crianças sem stress",
+     "texto": "Vou viajar para [destino] durante [dias] com crianças de [idades]. Propõe um plano diário com uma atividade principal por dia, pausas e refeições a horas, alternativas para dias de chuva e uma lista do que levar na mochila de mão. Assinala o que convém confirmar antes (horários, reservas, idades mínimas).",
+     "adicionado": "2026-11-25"
     }
    ]
   },
@@ -706,6 +731,11 @@
      "titulo": "Aprender uma ferramenta a fazer",
      "texto": "Quero ficar à vontade com [ferramenta] para [para quê]. Em vez de uma lista de funções, dá-me uma sequência de tarefas práticas, das mais fáceis às mais avançadas. Em cada uma, diz o que aprendo ao fazê-la.",
      "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Proteger as minhas contas",
+     "texto": "Uso estas contas e aplicações: [lista]. Cria um plano simples para as proteger, por ordem de prioridade: onde ativar a verificação em dois passos, como organizar palavras-passe com um gestor, que definições de privacidade rever e como reconhecer mensagens falsas. Explica cada passo sem termos técnicos e nunca me peças palavras-passe.",
+     "adicionado": "2026-11-25"
     }
    ]
   },
@@ -763,6 +793,11 @@
      "titulo": "Refeições sem complicar",
      "texto": "Preciso de refeições para [número] dias. Estas são as minhas preferências, restrições, o que tenho em casa e o orçamento: [pormenores]. Faz um plano variado e simples, aproveita os mesmos ingredientes em várias refeições e diz-me o que ainda tenho de comprar.",
      "adicionado": "2026-11-13"
+    },
+    {
+     "titulo": "Preparar o Natal com tempo",
+     "texto": "Quero organizar o Natal deste ano sem correrias. Somos [n.º de pessoas] e o orçamento é [valor]. Cria um plano semana a semana até 24 de dezembro com presentes, compras para a consoada, decoração e tarefas da casa, e uma lista de quem faz o quê. Junta 3 ideias para poupar sem perder o espírito.",
+     "adicionado": "2026-11-25"
     }
    ]
   }
