@@ -1,0 +1,26 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "O Claude fez o teu resumo de novembro",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-12-01T12:30",
+  "capa": "capa-claude-resumo-mes.jpg",
+  "resumo": "O Claude já faz o teu resumo do mês (Reflect): quando o usas, para quê e o que podes experimentar. Grátis e disponível em Portugal.",
+  "pontos": [
+    "⚙️ Settings › Wellbeing › Reflect",
+    "⏰ Dia, hora e número de conversas",
+    "📊 Os teus temas em percentagem",
+    "🔒 Apagas quando quiseres"
+  ],
+  "prompts": [],
+  "ferramentas": [
+    {
+      "nome": "Claude",
+      "url": "https://claude.ai"
+    }
+  ],
+  "fonte": {
+    "nome": "Ajuda da Anthropic: resumo mensal (Reflect)",
+    "url": "https://support.claude.com/en/articles/15672559-see-your-monthly-recap"
+  },
+  "instagram_url": ""
+}

@@ -1,0 +1,31 @@
+{
+  "_nota": "Lido pelo site/gerar.py. Só aparece no site depois de publicar_em (hora de Lisboa).",
+  "titulo": "O Claude já cria apps para o teu computador",
+  "tipo": "Faz comigo",
+  "publicar_em": "2026-11-30T12:30",
+  "capa": "capa-claude-app-computador.jpg",
+  "resumo": "O Claude já cria apps para o teu computador: pedes, ele faz e tu instalas com 'Instalar como app'. Também no plano grátis (beta).",
+  "pontos": [
+    "💬 Pede a app numa conversa",
+    "🖥️ Instala com \"Instalar como app\"",
+    "🍅 Abre-a com o teu ícone",
+    "🛡️ Acesso total só a apps tuas"
+  ],
+  "prompts": [
+    {
+      "titulo": "Temporizador Pomodoro",
+      "texto": "Faz-me um temporizador Pomodoro que fique na barra de menus: 25 minutos de trabalho, 5 de pausa, com um aviso quando acabar. Escreve tudo em português de Portugal."
+    }
+  ],
+  "ferramentas": [
+    {
+      "nome": "Claude",
+      "url": "https://claude.ai"
+    }
+  ],
+  "fonte": {
+    "nome": "Ajuda da Anthropic: instalar um artefacto como app",
+    "url": "https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app"
+  },
+  "instagram_url": ""
+}
